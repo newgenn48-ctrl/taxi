@@ -109,9 +109,9 @@ export default function Footer() {
               </div>
             </Link>
 
-            <p className="text-accent-300 mb-8 max-w-sm leading-relaxed">
+            <p className="text-accent-300 mb-8 max-w-sm leading-relaxed text-base">
               Uw betrouwbare taxiservice in Den Haag en omgeving. Al
-              meer dan 10 jaar verzorgen wij vervoer met professionele
+              meer dan 25 jaar verzorgen wij vervoer met professionele
               chauffeurs. Vaste prijzen, altijd op tijd.
             </p>
 

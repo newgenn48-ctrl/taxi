@@ -25,6 +25,7 @@
 
 html,
 :host {
+  font-size: 17px; /* Verhoogd van 16px voor betere leesbaarheid */
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;

@@ -43,7 +43,7 @@ export default function PricingSection() {
                   </div>
                   <div>
                     <p className="font-semibold text-accent-900">1 tot 4 kilometer</p>
-                    <p className="text-sm text-accent-500 hidden sm:block">Korte ritten in de buurt</p>
+                    <p className="text-base text-accent-500 hidden sm:block">Korte ritten in de buurt</p>
                   </div>
                 </div>
                 <p className="text-xl md:text-2xl font-bold text-primary-600">€14,50</p>
@@ -55,7 +55,7 @@ export default function PricingSection() {
                   </div>
                   <div>
                     <p className="font-semibold text-accent-900">4 tot 7 kilometer</p>
-                    <p className="text-sm text-accent-500 hidden sm:block">Middellange afstanden</p>
+                    <p className="text-base text-accent-500 hidden sm:block">Middellange afstanden</p>
                   </div>
                 </div>
                 <p className="text-xl md:text-2xl font-bold text-primary-600">€24,50</p>
@@ -67,7 +67,7 @@ export default function PricingSection() {
                   </div>
                   <div>
                     <p className="font-semibold text-accent-900">7 tot 10 kilometer</p>
-                    <p className="text-sm text-accent-500 hidden sm:block">Langere ritten in de regio</p>
+                    <p className="text-base text-accent-500 hidden sm:block">Langere ritten in de regio</p>
                   </div>
                 </div>
                 <p className="text-xl md:text-2xl font-bold text-primary-600">€34,50</p>
@@ -79,7 +79,7 @@ export default function PricingSection() {
                   </div>
                   <div>
                     <p className="font-semibold text-accent-900">Meer dan 10 kilometer</p>
-                    <p className="text-sm text-accent-500 hidden sm:block">Per extra kilometer</p>
+                    <p className="text-base text-accent-500 hidden sm:block">Per extra kilometer</p>
                   </div>
                 </div>
                 <p className="text-xl md:text-2xl font-bold text-primary-600">€1,75<span className="text-sm font-normal text-accent-500">/km</span></p>

@@ -82,7 +82,7 @@ export default function WhyChooseUs() {
               />
               {/* Overlay badge */}
               <div className="absolute bottom-4 left-4 bg-primary-500 text-white px-4 py-2 rounded-full font-semibold text-sm shadow-lg">
-                10+ jaar ervaring
+                25+ jaar ervaring
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function WhyChooseUs() {
               <span className="text-gradient-orange">Topservice</span>
             </h2>
             <p className="text-lg text-accent-300 mb-8 leading-relaxed">
-              Al meer dan 10 jaar zijn wij de betrouwbare taxiservice van Den Haag.
+              Al meer dan 25 jaar zijn wij de betrouwbare taxiservice van Den Haag.
               Onze klanten waarderen onze punctualiteit, eerlijke prijzen en vriendelijke chauffeurs.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -139,7 +139,7 @@ export default function WhyChooseUs() {
               <h3 className="text-lg font-bold text-white mb-2">
                 {usp.title}
               </h3>
-              <p className="text-accent-300 text-sm leading-relaxed">
+              <p className="text-accent-300 text-base leading-relaxed">
                 {usp.description}
               </p>
             </div>

@@ -81,11 +81,11 @@ export default function ServicesSection() {
                 {service.title}
               </h3>
 
-              <p className="text-accent-600 text-sm mb-4">{service.description}</p>
+              <p className="text-accent-600 text-base mb-4">{service.description}</p>
 
               <ul className="space-y-1.5">
                 {service.features.map((feature) => (
-                  <li key={feature} className="flex items-center gap-2 text-xs text-accent-500">
+                  <li key={feature} className="flex items-center gap-2 text-sm text-accent-500">
                     <div className="w-1 h-1 rounded-full bg-primary-500" />
                     {feature}
                   </li>
