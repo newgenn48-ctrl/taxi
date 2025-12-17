@@ -83,7 +83,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="nl">
+    <html lang="nl" data-scroll-behavior="smooth">
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
@@ -246,7 +246,7 @@ export default function RootLayout({
         <Script
           src="https://yourwebbooker.com/inline-webbooker/webbooker.js"
           type="module"
-          strategy="beforeInteractive"
+          strategy="lazyOnload"
         />
         <Header />
         <main id="main-content" className="flex-1 pb-16 md:pb-0">{children}</main>
