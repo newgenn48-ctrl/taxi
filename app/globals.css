@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   Custom Preflight CSS Reset
+   Based on Tailwind's preflight but with correct vendor prefix ordering
+   ============================================ */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+html,
+:host {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  font-family: Inter, system-ui, sans-serif;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+
+abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+table {
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+
+:-moz-focusring {
+  outline: auto;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  appearance: textfield;
+  outline-offset: -2px;
+}
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+summary {
+  display: list-item;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+dialog {
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+:disabled {
+  cursor: default;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+/* ============================================
+   Custom Base Styles
+   ============================================ */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-white text-accent-800 antialiased;
+    font-feature-settings: 'cv11', 'ss01';
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* User select with proper prefix ordering */
+  * {
+    -webkit-user-select: inherit;
+    -moz-user-select: inherit;
+    -ms-user-select: inherit;
+    user-select: inherit;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight text-accent-900;
+  }
+}
+
+@layer components {
+  /* Primary CTA - Oranje gradient (Nederlands, Warm, Actie) */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-gradient-orange text-white font-semibold rounded-xl shadow-orange transition-all duration-300 hover:shadow-orange-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  /* Secondary button - Outline style */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-white text-primary-600 font-semibold rounded-xl border-2 border-primary-200 shadow-luxury transition-all duration-300 hover:border-primary-500 hover:bg-primary-50 hover:shadow-luxury-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  /* Dark button variant */
+  .btn-dark {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-accent-900 text-white font-semibold rounded-xl shadow-luxury transition-all duration-300 hover:bg-accent-800 hover:shadow-luxury-lg focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2;
+  }
+
+  /* Modern card met subtiele border */
+  .card-luxury {
+    @apply bg-white rounded-2xl shadow-luxury p-8 transition-all duration-300 hover:shadow-luxury-lg border border-accent-100;
+  }
+
+  /* Card met hover effect */
+  .card-interactive {
+    @apply bg-white rounded-2xl shadow-luxury p-8 transition-all duration-300 hover:shadow-luxury-xl hover:-translate-y-1 border border-accent-100;
+  }
+
+  /* Glassmorphism card - with webkit prefix for Safari (prefix before standard) */
+  .card-glass {
+    @apply bg-white/80 rounded-2xl shadow-luxury-lg p-8 border border-white/20;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+  }
+
+  .section-padding {
+    @apply py-20 md:py-32 px-4 md:px-8;
+  }
+
+  .container-luxury {
+    @apply max-w-7xl mx-auto px-4 md:px-8;
+  }
+
+  /* Badge styles */
+  .badge-primary {
+    @apply inline-flex items-center px-4 py-1.5 bg-primary-100 text-primary-700 text-sm font-semibold rounded-full;
+  }
+
+  .badge-accent {
+    @apply inline-flex items-center px-4 py-1.5 bg-accent-100 text-accent-700 text-sm font-semibold rounded-full;
+  }
+}
+
+@layer utilities {
+  /* Oranje text gradient - voor highlights */
+  .text-gradient-orange {
+    @apply bg-gradient-orange bg-clip-text text-transparent;
+  }
+
+  /* Legacy support - redirect to orange */
+  .text-gradient-blue {
+    @apply bg-gradient-orange bg-clip-text text-transparent;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+  }
+
+  .animate-slide-in-left {
+    animation: slideInLeft 0.8s ease-out forwards;
+  }
+
+  .animate-slide-in-right {
+    animation: slideInRight 0.8s ease-out forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Custom iframe styling */
+.iframe-container {
+  @apply relative bg-white rounded-2xl shadow-luxury-lg overflow-hidden border border-accent-100;
+}
+
+.iframe-container iframe {
+  @apply w-full border-0;
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus visible styling for accessibility */
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-primary-500;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-primary-100 text-primary-900;
+}
+
+/* Webbooker widget styling - mobile fix */
+inline-webbooker {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+
+  /* CSS custom properties voor compactere layout */
+  --global-font-size: 14px;
+  --form-padding: 0px;
+  --input-padding: 6px;
+  --field-margin: 4px;
+  --form-row-gap: 8px;
+  --form-column-gap: 8px;
+}
+
+/* Probeer widget internals te stylen */
+inline-webbooker::part(form) {
+  padding: 0 !important;
+}
+
+inline-webbooker::part(field) {
+  margin-bottom: 8px !important;
+}
+
+inline-webbooker::part(button) {
+  margin-top: 8px !important;
+}
+
+/* Mobile: schaal de widget om te passen */
+@media (max-width: 400px) {
+  inline-webbooker {
+    transform: scale(0.9);
+    transform-origin: top center;
+  }
+}
+
+@media (max-width: 350px) {
+  inline-webbooker {
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+}

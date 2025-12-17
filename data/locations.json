@@ -1,0 +1,721 @@
+{
+  "locations": [
+    {
+      "slug": "vogelwijk",
+      "name": "Vogelwijk",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Persoonlijke taxiservice in de mooiste wijk van Den Haag. Van de Fazantlaan tot het Westbroekpark, wij kennen elke straat in de Vogelwijk.",
+      "metaTitle": "Taxi Vogelwijk Bestellen | Den Haag | 070-204 2200",
+      "metaDescription": "Taxi Vogelwijk bestellen? ✓ Fazantlaan, Nachtegaallaan ✓ Schiphol €79,50 ✓ 24/7 beschikbaar ✓ Vaste prijzen. Bel 070-204 2200 of boek online.",
+      "heroText": "Taxi in de Vogelwijk",
+      "highlights": ["Fazantlaan & omgeving", "Westbroekpark nabij", "Vaste prijzen", "Lokale chauffeurs"],
+      "popularRoutes": [
+        { "from": "Vogelwijk", "to": "Schiphol", "price": "€79,50", "duration": "35 min" },
+        { "from": "Vogelwijk", "to": "Scheveningen", "price": "€14,50", "duration": "8 min" },
+        { "from": "Vogelwijk", "to": "Den Haag Centraal", "price": "€24,50", "duration": "10 min" }
+      ],
+      "hero": {
+        "headline": "Taxi Vogelwijk Bestellen",
+        "subheadline": "24/7 bereikbaar • Snel ter plaatse • Tarieven vanaf €14,50"
+      },
+      "usps": [
+        { "icon": "clock", "title": "24/7 Bereikbaar", "text": "Dag en nacht, 7 dagen per week" },
+        { "icon": "euro", "title": "Transparante Prijzen", "text": "U weet vooraf wat u betaalt" },
+        { "icon": "shield", "title": "TX-Keurmerk", "text": "Gecertificeerde kwaliteit" },
+        { "icon": "car", "title": "Lokale Kennis", "text": "Wij kennen elke straat" }
+      ],
+      "steps": [
+        { "number": 1, "title": "Bel of WhatsApp", "text": "070-204 2200" },
+        { "number": 2, "title": "Geef uw locatie", "text": "Ophaaladres & bestemming" },
+        { "number": 3, "title": "Uw taxi komt", "text": "Wij zijn zo snel mogelijk bij u" }
+      ],
+      "pricing": {
+        "local": [
+          { "distance": "Binnen Vogelwijk", "price": "Vanaf €14,50" },
+          { "distance": "Naar Den Haag CS", "price": "€24,50" },
+          { "distance": "Naar Schiphol", "price": "€79,50" },
+          { "distance": "Naar Scheveningen", "price": "€14,50" }
+        ],
+        "includes": ["Geen nachttoeslag", "Geen reserveringskosten", "Prijs vooraf bekend"]
+      },
+      "content": {
+        "intro": "Taxi nodig in de Vogelwijk? Wij zijn 24/7 bereikbaar en kennen elke straat - van de Fazantlaan tot de Nachtegaallaan. De Vogelwijk is een prachtige wijk met smalle straten en beperkt parkeren. Een taxi is vaak de handigste optie voor uitstapjes naar het centrum, Scheveningen of Schiphol."
+      },
+      "localServices": [
+        {
+          "name": "Luchthavenvervoer",
+          "description": "Comfortabel naar Schiphol vanaf uw voordeur, geen gedoe met koffers in de trein",
+          "icon": "plane"
+        },
+        {
+          "name": "Ziekenhuisvervoer",
+          "description": "Naar HMC Bronovo, Haga of huisartsen in de omgeving",
+          "icon": "hospital"
+        },
+        {
+          "name": "Stationsvervoer",
+          "description": "Naar Den Haag Centraal of Hollands Spoor voor uw treinreis",
+          "icon": "train"
+        },
+        {
+          "name": "Strand & Uitgaan",
+          "description": "Naar Scheveningen voor een dagje strand of avondje uit",
+          "icon": "beach"
+        },
+        {
+          "name": "Schoolvervoer",
+          "description": "Veilig vervoer naar scholen in de omgeving, kinderzitjes beschikbaar",
+          "icon": "school"
+        },
+        {
+          "name": "Boodschappen & Winkelen",
+          "description": "Naar winkelcentra met ruimte voor al uw tassen",
+          "icon": "shopping"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Wat kost een taxi in de Vogelwijk?",
+          "answer": "Ritten binnen de Vogelwijk en directe omgeving beginnen bij €14,50. Naar Scheveningen betaalt u €14,50, naar Den Haag Centraal €24,50, en naar Schiphol €79,50. Alle prijzen zijn vast en inclusief BTW."
+        },
+        {
+          "question": "Hoe snel kan een taxi bij mij zijn in de Vogelwijk?",
+          "answer": "Gemiddeld zijn wij binnen 8-10 minuten bij u in de Vogelwijk. Wij rijden veel in deze wijk en hebben vaak een auto in de buurt."
+        },
+        {
+          "question": "Kennen jullie chauffeurs de Vogelwijk?",
+          "answer": "Absoluut! Onze chauffeurs kennen alle straten in de Vogelwijk, van de Fazantlaan tot de Nachtegaallaan. Zij weten precies hoe ze moeten rijden met het eenrichtingsverkeer en waar de beste ophaalplekken zijn."
+        },
+        {
+          "question": "Kan ik een taxi bestellen naar het Westbroekpark?",
+          "answer": "Jazeker. Het Westbroekpark met het beroemde Rosarium ligt op enkele minuten rijden. Wij kunnen u afzetten bij de ingang of bij Paviljoen De Witte voor een kop koffie."
+        },
+        {
+          "question": "Wat kost een taxi van de Vogelwijk naar Schiphol?",
+          "answer": "Een taxi van de Vogelwijk naar Schiphol kost €79,50, een vaste prijs inclusief BTW. De rit duurt ongeveer 35 minuten via de A4. Wij monitoren uw vlucht bij ophalen."
+        },
+        {
+          "question": "Hebben jullie kinderzitjes beschikbaar?",
+          "answer": "Ja, wij hebben kinderzitjes en verhogingen beschikbaar. Geef bij het boeken aan welke leeftijd uw kind heeft, dan zorgen wij voor het juiste zitje."
+        },
+        {
+          "question": "Rijden jullie ook 's avonds en 's nachts in de Vogelwijk?",
+          "answer": "Wij zijn 24/7 beschikbaar in de Vogelwijk. Of u nu vroeg naar Schiphol moet of laat thuiskomt - wij staan klaar."
+        },
+        {
+          "question": "Kan ik een vaste chauffeur aanvragen?",
+          "answer": "Wij proberen waar mogelijk dezelfde chauffeur te sturen voor vaste klanten. Laat ons weten als u een voorkeur heeft, dan houden wij daar rekening mee."
+        }
+      ],
+      "areas": ["Fazantlaan", "Nachtegaallaan", "Patrijslaan", "Mezenstraat", "Belgisch Park", "Westbroekpark", "Duinoord"],
+      "keywords": [
+        "taxi vogelwijk",
+        "taxi vogelwijk den haag",
+        "taxi bestellen vogelwijk",
+        "taxi fazantlaan",
+        "taxi nachtegaallaan",
+        "taxi vogelwijk schiphol",
+        "taxi westbroekpark",
+        "taxi belgisch park"
+      ],
+      "coordinates": { "lat": 52.1056, "lng": 4.2789 }
+    },
+    {
+      "slug": "loosduinen",
+      "name": "Loosduinen",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Vriendelijke taxiservice in Loosduinen, het oudste deel van Den Haag. Van Kijkduin tot Bohemen, wij kennen elke straat. Loosduinen biedt met zijn nabijheid tot strand en duinen een unieke woonervaring, en onze taxi's zorgen voor perfecte verbindingen.",
+      "metaTitle": "Taxi Loosduinen | Kijkduin & Schiphol | 070-204 2200",
+      "metaDescription": "Taxi Loosduinen nodig? ✓ Vaste prijzen ✓ Naar Kijkduin strand ✓ Schiphol vanaf €79,50 ✓ 24/7 beschikbaar. Bel 070-204 2200 of boek direct online.",
+      "heroText": "Taxi in Loosduinen",
+      "highlights": ["Naar Kijkduin", "Strand bereikbaar", "Vaste tarieven", "Snelle service"],
+      "popularRoutes": [
+        { "from": "Loosduinen", "to": "Schiphol", "price": "€79,50", "duration": "40 min" },
+        { "from": "Loosduinen", "to": "Kijkduin", "price": "€14,50", "duration": "5 min" },
+        { "from": "Loosduinen", "to": "Den Haag Centraal", "price": "€34,50", "duration": "15 min" }
+      ],
+      "neighborhoods": ["Kijkduin", "Bohemen", "Kraayenstein", "Waldeck"],
+      "seoContent": {
+        "intro": "Loosduinen is het oudste en meest westelijke stadsdeel van Den Haag, met wortels die teruggaan tot de 12e eeuw. Dit historische gebied combineert dorpse charme met directe toegang tot de Noordzee via het populaire Kijkduin. De wijk is geliefd bij gezinnen vanwege de ruime opzet, groene parken en nabijheid van strand en duinen.",
+        "extendedContent": "Het hart van Loosduinen wordt gevormd door het oude dorpscentrum rond de Loosduinse Hoofdstraat, waar nog steeds de middeleeuwse kerk staat. De buurt Bohemen staat bekend om zijn rustige karakter en fraaie vooroorlogse woningen, terwijl Kraayenstein en Waldeck modernere gezinswijken zijn met goede voorzieningen.\n\nVoor taxiritten vanuit Loosduinen is HaagseTaxiApp uw ideale partner. Of u nu naar Schiphol moet voor een vroege vlucht, een dagje strand plant bij Kijkduin, of familie wilt bezoeken in andere delen van Den Haag - wij zorgen voor comfortabel en punctueel vervoer tegen vaste prijzen.",
+        "services": ["Strandtransfers naar Kijkduin en Zuiderstrand", "Luchthavenvervoer naar Schiphol en Rotterdam Airport", "Zorgvervoer naar HMC Westeinde en huisartsen", "Schoolvervoer en kinderdagverblijf transfers"],
+        "uniquePoints": ["Binnen 10 minuten ter plaatse in heel Loosduinen", "Ruime voertuigen voor gezinnen met strandspullen", "Lokale kennis van Bohemen, Kraayenstein en Waldeck", "Kinderzitjes beschikbaar op aanvraag"],
+        "landmarks": ["Kijkduin strand", "Loosduinse Hoofdstraat", "Park Ockenburgh", "Atlantikwall bunkers", "Oud Loosduinen kerk"],
+        "transportTips": "Vanuit Loosduinen bereikt u Schiphol het snelst via de Erasmusweg en A4. In de zomermaanden kan het rond Kijkduin druk zijn - wij kennen de snelste routes om files te vermijden."
+      },
+      "coordinates": { "lat": 52.0589, "lng": 4.2261 }
+    },
+    {
+      "slug": "escamp",
+      "name": "Escamp",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Betaalbare taxiservice in Escamp, het grootste stadsdeel van Den Haag. Van Moerwijk tot Wateringse Veld, onze taxi's zijn snel beschikbaar. Escamp is een diverse en levendige wijk met uitstekende verbindingen naar de rest van de stad.",
+      "metaTitle": "Taxi Escamp | Moerwijk & Wateringse Veld | 070-204 2200",
+      "metaDescription": "Taxi Escamp bestellen? ✓ Vaste lage prijzen ✓ Moerwijk, Morgenstond, Wateringse Veld ✓ Schiphol vanaf €79,50 ✓ 24/7. Bel 070-204 2200.",
+      "heroText": "Taxi in Escamp",
+      "highlights": ["Betaalbare tarieven", "Groot bereik", "Snelle ophaaltijd", "24/7 Service"],
+      "popularRoutes": [
+        { "from": "Escamp", "to": "Schiphol", "price": "€79,50", "duration": "38 min" },
+        { "from": "Moerwijk", "to": "Den Haag Centraal", "price": "€24,50", "duration": "12 min" },
+        { "from": "Wateringse Veld", "to": "Loosduinen", "price": "€14,50", "duration": "10 min" }
+      ],
+      "neighborhoods": ["Moerwijk", "Morgenstond", "Bouwlust", "Vrederust", "Wateringse Veld", "Rustenburg", "Leyenburg"],
+      "seoContent": {
+        "intro": "Escamp is het grootste stadsdeel van Den Haag met meer dan 120.000 inwoners. Dit diverse en bruisende deel van de stad omvat klassieke volkswijken als Moerwijk en Morgenstond, maar ook de moderne nieuwbouwwijk Wateringse Veld. Het Haga Ziekenhuis Leyweg en winkelcentrum Leyweg maken Escamp tot een belangrijk centrum voor de regio.",
+        "extendedContent": "De wijken in Escamp hebben elk hun eigen karakter. Moerwijk en Morgenstond zijn naoorlogse wijken met veel groen en een hecht gemeenschapsgevoel. Bouwlust en Vrederust bieden betaalbare woningen voor starters en gezinnen. Het Wateringse Veld is de nieuwste toevoeging: een moderne wijk met waterrijke omgeving en eigentijdse architectuur.\n\nHaagseTaxiApp is actief in heel Escamp en kent alle buurten op de duim. Of u nu naar het Haga Ziekenhuis moet, een vlucht heeft vanaf Schiphol, of gewoon comfortabel door de stad wilt reizen - wij bieden betrouwbare service tegen betaalbare, vaste prijzen.",
+        "services": ["Ziekenhuisvervoer naar Haga Ziekenhuis Leyweg", "Luchthavenvervoer naar Schiphol en Rotterdam Airport", "Winkelcentrum transfers naar Leyweg en Savornin Lohmanplein", "Schoolvervoer naar alle scholen in Escamp"],
+        "uniquePoints": ["Korte wachttijden in heel Escamp", "Betaalbare tarieven voor dagelijks vervoer", "Kennis van alle ziekenhuizen en zorginstellingen", "24/7 beschikbaar, ook voor nachtdiensten"],
+        "landmarks": ["Haga Ziekenhuis Leyweg", "Winkelcentrum Leyweg", "Zuiderpark", "Wateringse Veld", "Uithof ijsbaan"],
+        "transportTips": "Escamp ligt centraal in Den Haag met goede verbindingen naar de A4 en A12. Voor ritten naar Schiphol rekent u circa 35-40 minuten. Het Haga Ziekenhuis is binnen 5-10 minuten bereikbaar vanuit elke buurt in Escamp."
+      },
+      "coordinates": { "lat": 52.0384, "lng": 4.2756 }
+    },
+    {
+      "slug": "rijswijk",
+      "name": "Rijswijk",
+      "type": "city",
+      "description": "Snelle taxiservice in Rijswijk, strategisch gelegen tussen Den Haag en de regio. Perfect voor zakelijke trips naar de vele kantoren en bedrijventerreinen, en ideaal voor luchthavenvervoer dankzij de uitstekende ligging aan de A4 en A13.",
+      "metaTitle": "Taxi Rijswijk | Schiphol vanaf €79,50 | 070-204 2200",
+      "metaDescription": "Taxi Rijswijk bestellen? ✓ Schiphol vanaf €79,50 ✓ Rotterdam Airport €55 ✓ Vaste prijzen ✓ 24/7 beschikbaar. Bel 070-204 2200 of boek online.",
+      "heroText": "Snelle Taxi in Rijswijk",
+      "highlights": ["Zakelijk vervoer", "Station Rijswijk", "Schiphol Express", "Vaste prijzen"],
+      "popularRoutes": [
+        { "from": "Rijswijk Station", "to": "Schiphol", "price": "€79,50", "duration": "30 min" },
+        { "from": "Rijswijk", "to": "Den Haag CS", "price": "€24,50", "duration": "10 min" },
+        { "from": "Rijswijk", "to": "Rotterdam Airport", "price": "€55", "duration": "20 min" }
+      ],
+      "neighborhoods": ["Centrum", "Plaspoelpolder", "Bomenbuurt", "Stervoorde", "Te Werve", "Hoornwijck"],
+      "seoContent": {
+        "intro": "Rijswijk is een zelfstandige gemeente strategisch gelegen tussen Den Haag, Delft en Rotterdam. Met grote bedrijventerreinen zoals Plaspoelpolder en uitstekende bereikbaarheid via A4, A13 en A12 is Rijswijk een belangrijke zakelijke hub in de regio. De gemeente combineert een modern zakencentrum met gezellige woonwijken en historische plekjes.",
+        "extendedContent": "De Plaspoelpolder is het kloppend hart van zakelijk Rijswijk, met kantoren van nationale en internationale bedrijven. Het centrum van Rijswijk biedt een gezellig winkelgebied rond de Herenstraat. Station Rijswijk zorgt voor snelle verbindingen naar Den Haag, Delft en Rotterdam.\n\nVoor zakelijke reizigers en bewoners van Rijswijk biedt HaagseTaxiApp de ideale vervoersoplossing. Onze chauffeurs kennen alle bedrijventerreinen en weten de snelste routes naar Schiphol, Rotterdam Airport en de belangrijkste zakelijke centra in de regio. Met vaste prijzen en professionele service bent u verzekerd van betrouwbaar vervoer.",
+        "services": ["Zakelijk vervoer naar Plaspoelpolder en kantoren", "Luchthavenvervoer naar Schiphol en Rotterdam Airport", "Stationsvervoer van en naar Rijswijk Station", "Evenementenvervoer en VIP transport"],
+        "uniquePoints": ["Directe toegang tot A4, A13 en A12", "Expertise in zakelijk vervoer en accountritten", "Snelle verbinding naar beide luchthavens", "Professionele chauffeurs met lokale kennis"],
+        "landmarks": ["Station Rijswijk", "Plaspoelpolder", "Landgoed Te Werve", "In de Bogaard winkelcentrum", "Rijswijkse Bos"],
+        "transportTips": "Rijswijk is ideaal gelegen voor luchthavenvervoer. Schiphol bereikt u in 30 minuten via de A4, Rotterdam Airport in slechts 20 minuten via de A13. Voor zakelijke afspraken in Den Haag Centrum rekent u 10-15 minuten."
+      },
+      "coordinates": { "lat": 52.0367, "lng": 4.3261 }
+    },
+    {
+      "slug": "voorburg",
+      "name": "Voorburg",
+      "type": "city",
+      "description": "Betrouwbare taxiservice in Voorburg, een charmante gemeente direct naast Den Haag. Van het historische Huygenskwartier tot moderne wijken, onze chauffeurs kennen elke bestemming. Voorburg combineert dorpse rust met stedelijk gemak.",
+      "metaTitle": "Taxi Voorburg | Schiphol vanaf €79,50 | 070-204 2200",
+      "metaDescription": "Taxi Voorburg bestellen? ✓ Schiphol vanaf €79,50 ✓ Mall of Netherlands €14,50 ✓ Vaste prijzen ✓ 24/7 service. Bel 070-204 2200 of boek online.",
+      "heroText": "Betrouwbare Taxi in Voorburg",
+      "highlights": ["Historisch Voorburg", "Station verbinding", "Schiphol service", "Lokale kennis"],
+      "popularRoutes": [
+        { "from": "Voorburg Station", "to": "Schiphol", "price": "€79,50", "duration": "28 min" },
+        { "from": "Voorburg", "to": "Den Haag CS", "price": "€24,50", "duration": "10 min" },
+        { "from": "Voorburg", "to": "Mall of Netherlands", "price": "€14,50", "duration": "8 min" }
+      ],
+      "neighborhoods": ["Centrum", "Huygenskwartier", "Essesteijn", "Park Leeuwenberg"],
+      "seoContent": {
+        "intro": "Voorburg is een van de oudste nederzettingen van Nederland, met een geschiedenis die teruggaat tot de Romeinse tijd. Het pittoreske Huygenskwartier, vernoemd naar dichter Constantijn Huygens, vormt het historische hart van deze charmante gemeente. Voorburg combineert dorpse gezelligheid met uitstekende verbindingen naar Den Haag en de rest van de Randstad.",
+        "extendedContent": "Het centrum van Voorburg ademt geschiedenis met zijn monumentale panden, kleine winkeltjes en gezellige terrassen langs de Herenstraat. Essesteijn en Park Leeuwenberg bieden moderne woonwijken met veel groen. De Mall of the Netherlands in het nabijgelegen Leidschendam is slechts enkele minuten rijden.\n\nHaagseTaxiApp kent Voorburg op de duim. Of u nu vanaf Station Voorburg naar Schiphol moet, een bezoek plant aan de Mall of the Netherlands, of naar het centrum van Den Haag wilt - wij zorgen voor comfortabel vervoer tegen transparante, vaste prijzen. Onze chauffeurs weten precies waar ze moeten zijn in deze historische gemeente.",
+        "services": ["Stationsvervoer vanaf Station Voorburg", "Luchthavenvervoer naar Schiphol en Rotterdam Airport", "Shopping transfers naar Mall of the Netherlands", "Zorgvervoer naar ziekenhuizen en huisartsen"],
+        "uniquePoints": ["Historische expertise in Huygenskwartier", "Snelle verbinding naar Mall of the Netherlands", "Directe route naar Schiphol via A4", "Kennis van alle wijken in Voorburg"],
+        "landmarks": ["Huygenskwartier", "Station Voorburg", "Mall of the Netherlands", "Park Leeuwenberg", "Hofwijck museum"],
+        "transportTips": "Voorburg ligt gunstig aan de A12 en nabij de A4. Schiphol bereikt u in ongeveer 28 minuten. Station Voorburg biedt snelle treinverbindingen naar Den Haag Centraal (5 min) en Rotterdam (25 min). De Mall of the Netherlands is slechts 8 minuten rijden."
+      },
+      "coordinates": { "lat": 52.0706, "lng": 4.3600 }
+    },
+    {
+      "slug": "ypenburg",
+      "name": "Ypenburg",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Betrouwbare taxiservice in Ypenburg, gebouwd op het voormalige vliegveld. Deze moderne wijk biedt ruime woningen en uitstekende verbindingen. Onze taxi's kennen elke buurt, van de Bras tot de Venen, en brengen u snel naar uw bestemming.",
+      "metaTitle": "Taxi Ypenburg | Schiphol vanaf €79,50 | 070-204 2200",
+      "metaDescription": "Taxi Ypenburg bestellen? ✓ Schiphol vanaf €79,50 ✓ Snelste route via A4 ✓ Vaste prijzen ✓ 24/7 service. Bel 070-204 2200 of boek online.",
+      "heroText": "Taxi in Ypenburg",
+      "highlights": ["Voormalig vliegveld", "Moderne wijk", "Snelle verbindingen", "Vaste prijzen"],
+      "popularRoutes": [
+        { "from": "Ypenburg", "to": "Schiphol", "price": "€79,50", "duration": "26 min" },
+        { "from": "Ypenburg", "to": "Den Haag Centraal", "price": "€24,50", "duration": "12 min" },
+        { "from": "Ypenburg", "to": "Voorburg", "price": "€14,50", "duration": "8 min" }
+      ],
+      "neighborhoods": ["De Bras", "De Venen", "Singels", "Bosweide"],
+      "seoContent": {
+        "intro": "Ypenburg is een moderne VINEX-wijk gebouwd op het terrein van het voormalige militaire vliegveld Ypenburg. De wijk combineert eigentijdse architectuur met veel water en groen. Dankzij de strategische ligging nabij de A4 en A12 is Ypenburg uitstekend bereikbaar en ideaal voor forensen naar Schiphol, Amsterdam en Rotterdam.",
+        "extendedContent": "De verschillende buurten van Ypenburg hebben elk hun eigen sfeer. De Bras kenmerkt zich door waterrijke omgeving met moderne woningen aan singels en grachten. De Venen biedt een groene woonomgeving met veel speelruimte voor kinderen. Bosweide en Singels completeren dit gevarieerde woongebied.\n\nHaagseTaxiApp is de ideale vervoerspartner voor bewoners van Ypenburg. Dankzij de directe ligging aan de A4 bereikt u Schiphol in slechts 26 minuten. Onze chauffeurs kennen alle buurten en straten van Ypenburg en zorgen voor een comfortabele rit naar elke bestemming, of dat nu de luchthaven is, het centrum van Den Haag, of een andere locatie in de regio.",
+        "services": ["Luchthavenvervoer naar Schiphol via directe A4 route", "Schoolvervoer naar basisscholen en voortgezet onderwijs", "Forensen vervoer naar stations en kantoren", "Zorg- en ziekenhuisvervoer"],
+        "uniquePoints": ["Snelste route naar Schiphol via A4 (26 min)", "Complete kennis van alle Ypenburg buurten", "Kindvriendelijke service met kinderzitjes", "Ervaring met forensen en zakelijk vervoer"],
+        "landmarks": ["De Bras watergebied", "De Venen park", "Winkelcentrum Ypenburg", "Voormalig vliegveld Ypenburg locatie", "Singels buurt"],
+        "transportTips": "Ypenburg profiteert van de directe ligging aan de A4. Schiphol is in 26 minuten bereikbaar, Den Haag Centraal in 12 minuten. In de ochtendspits richting Amsterdam adviseren wij 10-15 minuten extra tijd."
+      },
+      "coordinates": { "lat": 52.0444, "lng": 4.3833 }
+    },
+    {
+      "slug": "leidschendam",
+      "name": "Leidschendam",
+      "type": "city",
+      "description": "Comfortabele taxiservice in Leidschendam, thuisbasis van de Mall of the Netherlands. Gelegen aan de A4 en vlakbij Den Haag, biedt Leidschendam perfecte verbindingen. Onze taxi's zorgen voor snel en comfortabel vervoer naar alle bestemmingen.",
+      "metaTitle": "Taxi Leidschendam | Schiphol vanaf €79,50 | 070-204 2200",
+      "metaDescription": "Taxi Leidschendam bestellen? ✓ Schiphol vanaf €79,50 ✓ Mall of Netherlands ✓ Vaste prijzen ✓ 24/7. Bel 070-204 2200 of boek direct online.",
+      "heroText": "Comfortabele Taxi in Leidschendam",
+      "highlights": ["Mall of Netherlands", "A4 aansluiting", "Schiphol express", "24/7 Service"],
+      "popularRoutes": [
+        { "from": "Leidschendam", "to": "Schiphol", "price": "€79,50", "duration": "25 min" },
+        { "from": "Mall of Netherlands", "to": "Den Haag CS", "price": "€24,50", "duration": "12 min" },
+        { "from": "Leidschendam", "to": "Amsterdam", "price": "€125", "duration": "45 min" }
+      ],
+      "neighborhoods": ["Centrum", "Heuvelwijk", "Prinsenhof", "De Heuvel"],
+      "seoContent": {
+        "intro": "Leidschendam is een dynamische gemeente direct naast Den Haag, sinds 2002 samengevoegd met Voorburg. De stad is vooral bekend als thuisbasis van de Mall of the Netherlands, het grootste overdekte winkelcentrum van Nederland met meer dan 200 winkels. De gunstige ligging aan de A4 maakt Leidschendam tot een ideale uitvalsbasis voor de hele Randstad.",
+        "extendedContent": "Naast shopping biedt Leidschendam een rijke historie rond de karakteristieke sluizen in het centrum, waar de Vliet door het historische hart van de stad stroomt. De Heuvelwijk en Prinsenhof zijn populaire woonwijken met een mix van vooroorlogse charme en moderne nieuwbouw.\n\nVoor bezoekers van de Mall of the Netherlands en bewoners van Leidschendam is HaagseTaxiApp de perfecte vervoerspartner. Wij brengen u comfortabel naar het winkelcentrum, naar Schiphol voor uw vakantie, of naar zakelijke afspraken in de regio. Dankzij onze centrale ligging aan de A4 bent u binnen 25 minuten op Schiphol.",
+        "services": ["Shopping transfers naar Mall of the Netherlands", "Luchthavenvervoer naar Schiphol (snelste route)", "Zakelijk vervoer naar kantoren in regio", "Evenementenvervoer naar theaters en bioscopen"],
+        "uniquePoints": ["Mall of the Netherlands in 5 minuten bereikbaar", "Snelste Schiphol verbinding via A4 (25 min)", "Expertise in shopping transfers met grote bagageruimte", "24/7 beschikbaar voor late shopping of vroege vluchten"],
+        "landmarks": ["Mall of the Netherlands", "Historische sluizen", "Winkelcentrum Leidsenhage", "Vlietland recreatiegebied", "Leidschendam Centrum"],
+        "transportTips": "Leidschendam ligt direct aan de A4, waardoor Schiphol in slechts 25 minuten bereikbaar is. De Mall of the Netherlands heeft ruime parkeergelegenheid, maar voor een ontspannen shopdag zonder parkeergedoe is een taxi de perfecte oplossing. Wij halen u op wanneer u klaar bent!"
+      },
+      "coordinates": { "lat": 52.0833, "lng": 4.3950 }
+    },
+    {
+      "slug": "scheveningen",
+      "name": "Scheveningen",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Taxi nodig in Scheveningen? Wij zijn 24/7 bereikbaar en snel ter plaatse. Transparante tarieven vanaf €14,50. Bel 070-204 2200.",
+      "metaTitle": "Taxi Scheveningen | 24/7 Beschikbaar | Bel 070-204 2200",
+      "metaDescription": "Taxi Scheveningen bestellen ✓ Snel ter plaatse ✓ Tarieven vanaf €14,50 ✓ Schiphol €79,50 ✓ 24/7 bereikbaar ✓ TX-Keurmerk. Bel 070-204 2200!",
+      "heroText": "Taxi Scheveningen",
+      "highlights": ["24/7 Bereikbaar", "Transparante Tarieven", "Snel Ter Plaatse", "TX-Keurmerk"],
+      "popularRoutes": [
+        { "from": "Scheveningen", "to": "Schiphol", "price": "€79,50", "duration": "ca. 40 min" },
+        { "from": "Scheveningen", "to": "Den Haag CS", "price": "€24,50", "duration": "ca. 12 min" },
+        { "from": "Scheveningen", "to": "Rotterdam", "price": "€55,-", "duration": "ca. 25 min" }
+      ],
+      "hero": {
+        "headline": "Taxi Scheveningen",
+        "subheadline": "24/7 bereikbaar • Snel ter plaatse • Tarieven vanaf €14,50"
+      },
+      "usps": [
+        { "icon": "clock", "title": "24/7 Bereikbaar", "text": "Dag en nacht, 7 dagen per week" },
+        { "icon": "euro", "title": "Transparante Prijzen", "text": "U weet vooraf wat u betaalt" },
+        { "icon": "shield", "title": "TX-Keurmerk", "text": "Gecertificeerde kwaliteit" },
+        { "icon": "car", "title": "Snel Ter Plaatse", "text": "Wij komen zo snel mogelijk" }
+      ],
+      "steps": [
+        { "number": 1, "title": "Bel of WhatsApp", "text": "070-204 2200" },
+        { "number": 2, "title": "Geef uw locatie", "text": "Ophaaladres & bestemming" },
+        { "number": 3, "title": "Uw taxi komt", "text": "Wij zijn zo snel mogelijk bij u" }
+      ],
+      "localServices": [
+        {
+          "name": "Luchthavenvervoer",
+          "description": "Schiphol €79,50 • Rotterdam €55",
+          "icon": "plane"
+        },
+        {
+          "name": "Nachtvervoer",
+          "description": "24/7 beschikbaar, ook na het stappen",
+          "icon": "moon"
+        },
+        {
+          "name": "Hotelvervoer",
+          "description": "Kurhaus, Carlton Beach & alle hotels",
+          "icon": "hotel"
+        },
+        {
+          "name": "Zakelijk Vervoer",
+          "description": "Representatief & betrouwbaar",
+          "icon": "briefcase"
+        },
+        {
+          "name": "Stationsvervoer",
+          "description": "Den Haag CS & Hollands Spoor",
+          "icon": "train"
+        },
+        {
+          "name": "Groepsvervoer",
+          "description": "Tot 8 personen",
+          "icon": "users"
+        }
+      ],
+      "pricing": {
+        "local": [
+          { "distance": "Binnen Scheveningen", "price": "Vanaf €14,50" },
+          { "distance": "Naar Den Haag CS", "price": "€24,50" },
+          { "distance": "Naar Schiphol", "price": "€79,50" },
+          { "distance": "Naar Rotterdam", "price": "€55,-" }
+        ],
+        "includes": ["Geen nachttoeslag", "Geen reserveringskosten", "Prijs vooraf bekend"]
+      },
+      "faq": [
+        {
+          "question": "Wat kost een taxi in Scheveningen?",
+          "answer": "Ritten binnen Scheveningen starten vanaf €14,50. Naar Den Haag CS €24,50, naar Schiphol €79,50. U weet vooraf wat u betaalt."
+        },
+        {
+          "question": "Hoe snel kan een taxi bij mij zijn?",
+          "answer": "Wij komen zo snel mogelijk. Bel ons en wij geven direct een indicatie van de wachttijd."
+        },
+        {
+          "question": "Hoe bestel ik een taxi?",
+          "answer": "Bel 070-204 2200, WhatsApp hetzelfde nummer, of boek online. Wij zijn 24/7 bereikbaar."
+        },
+        {
+          "question": "Rijden jullie ook 's nachts?",
+          "answer": "Ja, 24/7 bereikbaar. Ook na een avond op de boulevard."
+        },
+        {
+          "question": "Hoe kan ik betalen?",
+          "answer": "PIN, creditcard, contant of vooraf via iDEAL."
+        },
+        {
+          "question": "Is er ruimte voor bagage?",
+          "answer": "Ja, ruime kofferbakken. Surfplanken of extra bagage? Geef het door bij boeking."
+        }
+      ],
+      "areas": ["Boulevard", "Kurhaus", "Haven", "Scheveningen Dorp", "Duindorp", "Belgisch Park", "Noorderstrand", "Zuiderstrand"],
+      "keywords": [
+        "taxi scheveningen",
+        "taxi scheveningen bestellen",
+        "taxi scheveningen boulevard",
+        "taxi scheveningen haven",
+        "taxi kurhaus",
+        "taxi scheveningen strand",
+        "taxi scheveningen schiphol",
+        "taxi bestellen scheveningen den haag",
+        "taxi scheveningen 24 uur"
+      ],
+      "coordinates": { "lat": 52.1061, "lng": 4.2628 }
+    },
+    {
+      "slug": "wassenaar",
+      "name": "Wassenaar",
+      "type": "city",
+      "description": "Exclusieve taxiservice in Wassenaar, de meest prestigieuze gemeente van Nederland. Discrete, luxe vervoer voor zakelijke en particuliere klanten. Met onze premium voertuigen en professionele chauffeurs bent u verzekerd van het hoogste serviceniveau.",
+      "metaTitle": "Taxi Wassenaar | Schiphol vanaf €79,50 | 070-204 2200",
+      "metaDescription": "Taxi Wassenaar bestellen? ✓ Schiphol vanaf €79,50 ✓ Discrete luxe service ✓ Vaste prijzen ✓ 24/7 beschikbaar. Bel 070-204 2200 of boek online.",
+      "heroText": "Exclusieve Taxi in Wassenaar",
+      "highlights": ["Discrete service", "Luxe voertuigen", "Zakelijk vervoer", "Schiphol VIP"],
+      "popularRoutes": [
+        { "from": "Wassenaar", "to": "Schiphol", "price": "€79,50", "duration": "30 min" },
+        { "from": "Wassenaar", "to": "Den Haag CS", "price": "€34,50", "duration": "15 min" },
+        { "from": "Wassenaar", "to": "Amsterdam", "price": "€125", "duration": "45 min" }
+      ],
+      "neighborhoods": ["Centrum", "De Kieviet", "Groot Haesebroek", "Rijksdorp", "Duinrell"],
+      "seoContent": {
+        "intro": "Wassenaar behoort tot de welvarendste gemeenten van Nederland en Europa. De gemeente kenmerkt zich door uitgestrekte landgoederen, monumentale villa's, internationale scholen en een exclusieve levensstijl. Veel diplomaten, expats en ondernemers kiezen Wassenaar als thuisbasis vanwege de rust, ruimte en directe verbinding met Den Haag en Schiphol.",
+        "extendedContent": "De groene omgeving van Wassenaar biedt alles wat u zoekt: van de duinen bij Meijendel tot het attractiepark Duinrell, van de historische buitenplaatsen tot exclusieve golfbanen. Het centrum van Wassenaar heeft een dorps karakter met hoogwaardige winkels en restaurants.\n\nHaagseTaxiApp begrijpt de verwachtingen van Wassenaarders. Onze service is discreet, punctueel en professioneel. Of het nu gaat om vervoer naar een zakelijke bijeenkomst in Den Haag, een vlucht vanaf Schiphol of Rotterdam The Hague Airport, of het ophalen van internationale gasten - wij leveren een service die past bij de standing van Wassenaar.",
+        "services": ["Executive transport naar zakelijke afspraken", "Luchthavenvervoer naar Schiphol (incl. privéterminals)", "Vervoer naar internationale scholen (ASH, ISH)", "Discrete service voor diplomaten en VIPs"],
+        "uniquePoints": ["Premium voertuigen passend bij Wassenaar", "Discrete, professionele chauffeurs", "Ervaring met diplomatieke missies", "Meertalige service (NL, EN, DE, FR)"],
+        "landmarks": ["Duinrell & Tikibad", "Landgoed Duivenvoorde", "Meijendel duingebied", "Kasteel Oud-Wassenaar", "De Paauw met raadzaal", "Wassenaarsche Slag"],
+        "transportTips": "Wassenaar ligt gunstig voor Schiphol - via de A44 bent u er binnen 25-35 minuten. Voor Rotterdam The Hague Airport rekent u ongeveer 30 minuten. Wij adviseren voor internationale vluchten minimaal 15 minuten eerder te vertrekken in de ochtendspits."
+      },
+      "coordinates": { "lat": 52.1453, "lng": 4.4011 }
+    },
+    {
+      "slug": "kijkduin",
+      "name": "Kijkduin",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Vriendelijke taxiservice in Kijkduin, het familievriendelijke strand van Den Haag. Ideaal voor gezinnen en strandgangers. Onze ruime voertuigen zijn perfect voor groepen en bieden comfortabel vervoer naar strand, hotels en alle bestemmingen.",
+      "metaTitle": "Taxi Kijkduin | Strand & Schiphol | 070-204 2200",
+      "metaDescription": "Taxi Kijkduin bestellen? ✓ Naar strand & duinen ✓ Schiphol vanaf €79,50 ✓ Vaste prijzen ✓ 24/7 service. Bel 070-204 2200 of boek online.",
+      "heroText": "Vriendelijke Taxi in Kijkduin",
+      "highlights": ["Strand", "Gezinsvriendelijk", "Ruime voertuigen", "Vaste prijzen"],
+      "popularRoutes": [
+        { "from": "Kijkduin", "to": "Schiphol", "price": "€79,50", "duration": "42 min" },
+        { "from": "Kijkduin", "to": "Den Haag CS", "price": "€34,50", "duration": "15 min" },
+        { "from": "Kijkduin", "to": "Scheveningen", "price": "€24,50", "duration": "12 min" }
+      ],
+      "neighborhoods": ["Kijkduin strand", "Ockenburgh", "Meer en Bos"],
+      "seoContent": {
+        "intro": "Kijkduin is de rustige, familievriendelijke badplaats van Den Haag. In tegenstelling tot het levendige Scheveningen biedt Kijkduin brede zandstranden, schone duinen en een ontspannen sfeer. Het strand is geliefd bij gezinnen met kinderen en natuurliefhebbers die de rust van de Noordzeekust willen ervaren.",
+        "extendedContent": "De boulevard van Kijkduin is recent volledig gerenoveerd met nieuwe paviljoens en een modern beachfront. Het Atlantic Hotel en diverse strandpaviljoens bieden faciliteiten voor dagjes strand. De duinen van Kijkduin en het nabijgelegen Westduinpark zijn prachtig voor wandelingen.\n\nHaagseTaxiApp is uw ideale vervoerspartner naar en van Kijkduin. Wij brengen u comfortabel naar het strand met al uw strandspullen, en halen u weer op wanneer u uitgerust bent. Onze ruime voertuigen zijn perfect voor gezinnen met kinderen, strandstoelen en parasols. Na een dag strand brengen wij u veilig naar huis of naar uw volgende bestemming.",
+        "services": ["Strandvervoer met ruimte voor strandspullen", "Hotelvervoer naar Atlantic Hotel en B&Bs", "Luchthavenvervoer voor vakantiegangers", "Groepsvervoer naar strandfeesten en evenementen"],
+        "uniquePoints": ["Ruime voertuigen voor gezinnen met strandspullen", "Flexibele ophaaltijden aan het strand", "Kinderzitjes beschikbaar", "Kennis van alle parkeerterreinen en afzetpunten"],
+        "landmarks": ["Kijkduin strand en boulevard", "Atlantic Hotel", "Westduinpark", "Duinrell (nabijgelegen)", "Deltaplein"],
+        "transportTips": "Kijkduin is in de zomer druk met beperkte parkeermogelijkheden. Een taxi voorkomt parkeergedoe en brengt u direct naar de boulevard. Na uw stranddag kunt u ontspannen thuiskomen zonder zelf te hoeven rijden. Schiphol bereikt u vanuit Kijkduin in ongeveer 42 minuten."
+      },
+      "coordinates": { "lat": 52.0639, "lng": 4.2128 }
+    },
+    {
+      "slug": "statenkwartier",
+      "name": "Statenkwartier",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Stijlvolle taxiservice in het Statenkwartier, een van de chicste wijken van Den Haag. Gelegen nabij Scheveningen en het Vredespaleis, biedt het Statenkwartier een mix van grandeur en gemak. Onze service past bij de standing van deze buurt.",
+      "metaTitle": "Taxi Statenkwartier | Vredespaleis | 070-204 2200",
+      "metaDescription": "Taxi Statenkwartier bestellen? ✓ Nabij Vredespaleis ✓ Schiphol vanaf €79,50 ✓ Vaste prijzen ✓ 24/7 service. Bel 070-204 2200 of boek online.",
+      "heroText": "Taxi in het Statenkwartier",
+      "highlights": ["Vredespaleis", "Nabij Scheveningen", "Prestigieuze wijk", "Premium service"],
+      "popularRoutes": [
+        { "from": "Statenkwartier", "to": "Schiphol", "price": "€79,50", "duration": "38 min" },
+        { "from": "Statenkwartier", "to": "Den Haag Centraal", "price": "€14,50", "duration": "10 min" },
+        { "from": "Vredespaleis", "to": "Scheveningen", "price": "€14,50", "duration": "8 min" }
+      ],
+      "neighborhoods": ["Vredespaleis omgeving", "Duinoord", "Van Stolkpark"],
+      "seoContent": {
+        "intro": "Het Statenkwartier is een van de meest prestigieuze woonwijken van Den Haag, gebouwd rond 1900 met prachtige herenhuizen en brede lanen. De wijk dankt zijn naam aan de Eerste en Tweede Kamerleden die hier van oudsher woonden. Het iconische Vredespaleis, zetel van het Internationaal Gerechtshof, vormt het hart van deze diplomatieke buurt.",
+        "extendedContent": "Het Statenkwartier combineert grandeur met een perfecte ligging. Het strand van Scheveningen ligt op loopafstand, terwijl het centrum van Den Haag binnen enkele minuten bereikbaar is. De Frederik Hendriklaan biedt exclusieve winkels en restaurants. De nabijgelegen wijken Duinoord en Van Stolkpark delen dezelfde verfijnde sfeer.\n\nHaagseTaxiApp biedt service die past bij het Statenkwartier. Onze professionele chauffeurs hebben ervaring met diplomaten, internationale gasten en zakelijke reizigers. Of u nu naar Schiphol moet voor een internationale reis, gasten ontvangt van het vliegveld, of een diner plant in het centrum - wij zorgen voor discrete en stijlvolle service.",
+        "services": ["Diplomatiek vervoer voor internationale gasten", "Luchthavenvervoer naar Schiphol (incl. VIP terminal)", "Zakelijk vervoer naar ministeries en ambassades", "Evenementenvervoer naar Vredespaleis evenementen"],
+        "uniquePoints": ["Premium service passend bij de wijk", "Ervaring met diplomaten en internationale gasten", "Discrete en professionele chauffeurs", "Meertalige service (NL, EN, DE, FR)"],
+        "landmarks": ["Vredespaleis", "Frederik Hendriklaan", "Van Stolkpark", "Westbroekpark", "Scheveningse Bosjes"],
+        "transportTips": "Het Statenkwartier ligt ideaal tussen strand en centrum. Scheveningen bereikt u in 8 minuten, het centrum in 10 minuten. Voor Schiphol rekent u circa 38 minuten. De Frederik Hendriklaan heeft beperkt parkeren - een taxi is vaak de handigste optie voor bezoek aan de winkels."
+      },
+      "coordinates": { "lat": 52.0961, "lng": 4.2817 }
+    },
+    {
+      "slug": "centrum-den-haag",
+      "name": "Centrum Den Haag",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Van Binnenhof tot Grote Markt, van station tot ministerie. Uw taxi in het politieke en culturele hart van Nederland.",
+      "metaTitle": "Taxi Centrum Den Haag Bestellen | Binnenhof & Grote Markt | 070-204 2200",
+      "metaDescription": "Taxi Centrum Den Haag bestellen? ✓ Binnenhof, Grote Markt, Passage ✓ Schiphol €79,50 ✓ 24/7 beschikbaar ✓ Vaste prijzen. Bel 070-204 2200.",
+      "heroText": "Taxi in het Centrum",
+      "highlights": ["Binnenhof & Ministeries", "Den Haag CS & HS", "Winkelen & Uitgaan", "Zakelijk Vervoer"],
+      "popularRoutes": [
+        { "from": "Centrum", "to": "Schiphol", "price": "€79,50", "duration": "35 min" },
+        { "from": "Den Haag CS", "to": "Binnenhof", "price": "€14,50", "duration": "5 min" },
+        { "from": "Centrum", "to": "Scheveningen", "price": "€24,50", "duration": "12 min" }
+      ],
+      "hero": {
+        "headline": "Taxi Centrum Den Haag Bestellen",
+        "subheadline": "24/7 bereikbaar • Snel ter plaatse • Tarieven vanaf €14,50"
+      },
+      "usps": [
+        { "icon": "clock", "title": "24/7 Bereikbaar", "text": "Dag en nacht, 7 dagen per week" },
+        { "icon": "euro", "title": "Transparante Prijzen", "text": "U weet vooraf wat u betaalt" },
+        { "icon": "shield", "title": "TX-Keurmerk", "text": "Gecertificeerde kwaliteit" },
+        { "icon": "car", "title": "Centraal Gelegen", "text": "Overal snel ter plaatse" }
+      ],
+      "steps": [
+        { "number": 1, "title": "Bel of WhatsApp", "text": "070-204 2200" },
+        { "number": 2, "title": "Geef uw locatie", "text": "Ophaaladres & bestemming" },
+        { "number": 3, "title": "Uw taxi komt", "text": "Wij zijn zo snel mogelijk bij u" }
+      ],
+      "pricing": {
+        "local": [
+          { "distance": "Binnen Centrum", "price": "Vanaf €14,50" },
+          { "distance": "Naar Scheveningen", "price": "€24,50" },
+          { "distance": "Naar Schiphol", "price": "€79,50" },
+          { "distance": "Naar Rotterdam", "price": "€55,-" }
+        ],
+        "includes": ["Geen nachttoeslag", "Geen reserveringskosten", "Prijs vooraf bekend"]
+      },
+      "content": {
+        "intro": "Taxi nodig in het centrum van Den Haag? Wij zijn 24/7 bereikbaar. Van Binnenhof tot Grote Markt, van station tot ministerie - wij brengen u snel en comfortabel naar uw bestemming. Het centrum is grotendeels autovrij, maar onze taxi's hebben toegang tot plekken waar eigen auto's niet mogen komen."
+      },
+      "localServices": [
+        {
+          "name": "Zakelijk Vervoer",
+          "description": "Naar ministeries, Tweede Kamer, ambassades en kantoren in het centrum",
+          "icon": "briefcase"
+        },
+        {
+          "name": "Stationsvervoer",
+          "description": "Van en naar Den Haag Centraal en Hollands Spoor, ook bij late treinen",
+          "icon": "train"
+        },
+        {
+          "name": "Luchthavenvervoer",
+          "description": "Comfortabel naar Schiphol of Rotterdam Airport met flight tracking",
+          "icon": "plane"
+        },
+        {
+          "name": "Hotel Transfers",
+          "description": "Naar Hilton, Des Indes, Marriott en alle andere hotels in het centrum",
+          "icon": "hotel"
+        },
+        {
+          "name": "Theater & Cultuur",
+          "description": "Naar Koninklijk Theater, Nationale Opera en museumbezoeken",
+          "icon": "theater"
+        },
+        {
+          "name": "Nachtvervoer",
+          "description": "Veilig naar huis na een avond op de Grote Markt of het Plein",
+          "icon": "moon"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Wat kost een taxi in het centrum van Den Haag?",
+          "answer": "Ritten binnen het centrum kosten €14,50 tot €24,50. Naar Scheveningen betaalt u €24,50, naar Schiphol €79,50. Alle prijzen zijn vast en inclusief BTW."
+        },
+        {
+          "question": "Kunnen jullie mij ophalen bij het Binnenhof?",
+          "answer": "Jazeker! Wij kunnen u afzetten en ophalen bij het Binnenhof, de Hofvijver, en alle ingangen van de Tweede Kamer. Onze taxi's hebben toegang tot gebieden waar eigen auto's niet mogen komen."
+        },
+        {
+          "question": "Hoe bestel ik een taxi in het centrum?",
+          "answer": "Bel 070-204 2200, stuur een WhatsApp, of boek online. In het centrum zijn wij vaak binnen enkele minuten bij u."
+        },
+        {
+          "question": "Rijden jullie ook tijdens Prinsjesdag?",
+          "answer": "Absoluut! Tijdens Prinsjesdag en andere grote evenementen zijn wij extra beschikbaar. Wij kennen alle alternatieve routes wanneer straten zijn afgesloten."
+        },
+        {
+          "question": "Kan ik een taxi bestellen naar het station?",
+          "answer": "Natuurlijk. Wij brengen u naar Den Haag Centraal of Hollands Spoor, direct voor de ingang zodat u droog en comfortabel uw trein kunt halen."
+        },
+        {
+          "question": "Wat kost een taxi van het centrum naar Schiphol?",
+          "answer": "Een taxi van het centrum naar Schiphol kost €79,50, een vaste prijs inclusief BTW. De rit duurt ongeveer 35 minuten."
+        },
+        {
+          "question": "Kunnen jullie mij ophalen bij de Passage?",
+          "answer": "Ja, wij kunnen u ophalen bij de ingangen van de Passage aan de Spuistraat of Buitenhof. Geef aan welke ingang het handigst is."
+        },
+        {
+          "question": "Rijden jullie ook 's nachts in het centrum?",
+          "answer": "Wij zijn 24/7 beschikbaar. Na een avond op de Grote Markt of het Plein brengen wij u veilig naar huis."
+        },
+        {
+          "question": "Kan ik een taxi naar de Grote Markt bestellen?",
+          "answer": "Jazeker. De Grote Markt is voetgangersgebied, maar wij kunnen u afzetten aan de rand van het plein bij de Dagelijkse Groenmarkt."
+        }
+      ],
+      "areas": ["Binnenhof", "Grote Markt", "De Passage", "Spui", "Het Plein", "Lange Voorhout", "Hofvijver", "Mauritshuis"],
+      "keywords": [
+        "taxi centrum den haag",
+        "taxi den haag centrum",
+        "taxi binnenhof",
+        "taxi grote markt den haag",
+        "taxi den haag centraal",
+        "taxi passage den haag",
+        "taxi bestellen den haag centrum",
+        "taxi den haag station"
+      ],
+      "coordinates": { "lat": 52.0799, "lng": 4.3113 }
+    },
+    {
+      "slug": "benoordenhout",
+      "name": "Benoordenhout",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Exclusieve taxiservice in Benoordenhout, een van de meest gewilde woonwijken van Den Haag. Met prachtige lanen, ambassades en nabijheid tot het Haagse Bos. Onze service past bij de standing en verwachtingen van deze prestigieuze buurt.",
+      "metaTitle": "Taxi Benoordenhout | Ambassadewijk | 070-204 2200",
+      "metaDescription": "Taxi Benoordenhout bestellen? ✓ Ambassadewijk & Haagse Bos ✓ Schiphol vanaf €79,50 ✓ Vaste prijzen ✓ 24/7. Bel 070-204 2200 of boek online.",
+      "heroText": "Exclusieve Taxi in Benoordenhout",
+      "highlights": ["Ambassadewijk", "Haagse Bos", "Premium service", "Discretie"],
+      "popularRoutes": [
+        { "from": "Benoordenhout", "to": "Schiphol", "price": "€79,50", "duration": "35 min" },
+        { "from": "Benoordenhout", "to": "Den Haag CS", "price": "€14,50", "duration": "8 min" },
+        { "from": "Benoordenhout", "to": "Wassenaar", "price": "€24,50", "duration": "12 min" }
+      ],
+      "neighborhoods": ["Clingendael", "Marlot", "Van Stolkpark"],
+      "seoContent": {
+        "intro": "Benoordenhout is de meest exclusieve woonwijk van Den Haag, thuisbasis van talloze ambassades, internationale organisaties en fraaie villa's. De wijk grenst aan het Haagse Bos en het prachtige landgoed Clingendael met zijn beroemde Japanse Tuin. Hier wonen diplomaten, politici en ondernemers die privacy en kwaliteit waarderen.",
+        "extendedContent": "De brede lanen van Benoordenhout zijn omzoomd met statige bomen en monumentale panden. Het Haagse Bos biedt kilometers wandel- en fietspaden, terwijl Clingendael in het voorjaar duizenden bezoekers trekt voor de bloeiende Japanse Tuin. De wijk heeft een internationale sfeer door de vele ambassades en expat-families.\n\nHaagseTaxiApp begrijpt de verwachtingen van bewoners en bezoekers van Benoordenhout. Onze service is discreet, professioneel en van het hoogste niveau. Of u nu diplomatieke gasten verwacht van Schiphol, een zakelijke afspraak heeft bij een ambassade, of gewoon comfortabel naar het centrum wilt - wij leveren service die past bij deze bijzondere wijk.",
+        "services": ["Diplomatiek vervoer voor ambassades", "Luchthavenvervoer met flight tracking", "Zakelijk vervoer naar internationale organisaties", "Discrete VIP service voor speciale gelegenheden"],
+        "uniquePoints": ["Ervaring met diplomatieke missies en protocollen", "Premium voertuigen passend bij de wijk", "Discrete en professionele chauffeurs", "Meertalige service (NL, EN, DE, FR)"],
+        "landmarks": ["Haagse Bos", "Clingendael & Japanse Tuin", "Ambassadewijk", "Paleistuin", "Marlot park"],
+        "transportTips": "Benoordenhout ligt dichtbij de A12 voor snelle verbindingen naar Utrecht en Schiphol. Het vliegveld bereikt u in circa 35 minuten. Station Den Haag Centraal is slechts 8 minuten rijden. Clingendael is het mooiste in april-mei wanneer de Japanse Tuin open is."
+      },
+      "coordinates": { "lat": 52.0906, "lng": 4.3283 }
+    },
+    {
+      "slug": "bezuidenhout",
+      "name": "Bezuidenhout",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Betrouwbare taxiservice in Bezuidenhout, centraal gelegen nabij station Den Haag HS. Met ministeries, kantoren en goede verbindingen, is Bezuidenhout een belangrijke zakelijke hub. Onze taxi's zijn snel beschikbaar voor al uw ritten.",
+      "metaTitle": "Taxi Bezuidenhout | Station HS | 070-204 2200",
+      "metaDescription": "Taxi Bezuidenhout bestellen? ✓ Station HS & Ministeries ✓ Schiphol vanaf €79,50 ✓ Vaste prijzen ✓ 24/7. Bel 070-204 2200 of boek online.",
+      "heroText": "Taxi in Bezuidenhout",
+      "highlights": ["Station HS", "Ministeries", "Zakelijk vervoer", "Snelle service"],
+      "popularRoutes": [
+        { "from": "Den Haag HS", "to": "Schiphol", "price": "€79,50", "duration": "32 min" },
+        { "from": "Bezuidenhout", "to": "Den Haag CS", "price": "€14,50", "duration": "8 min" },
+        { "from": "Bezuidenhout", "to": "World Forum", "price": "€14,50", "duration": "10 min" }
+      ],
+      "neighborhoods": ["Bezuidenhout-West", "Bezuidenhout-Oost", "Beatrixkwartier"],
+      "seoContent": {
+        "intro": "Bezuidenhout is een centraal gelegen wijk direct naast Station Hollands Spoor, een van de drukste stations van Den Haag. Het Beatrixkwartier met zijn moderne kantoorgebouwen, ministeries en het World Forum conferentiecentrum maken Bezuidenhout tot een belangrijke zakelijke hub. De wijk combineert werk en wonen op een unieke manier.",
+        "extendedContent": "De wijk bestaat uit Bezuidenhout-West en Bezuidenhout-Oost, met daartussen het moderne Beatrixkwartier. Hier vinden dagelijks duizenden mensen hun weg naar kantoren van grote bedrijven en overheidsinstanties. Station Hollands Spoor biedt directe verbindingen naar Rotterdam, Delft en Amsterdam.\n\nVoor zakelijke reizigers en bewoners van Bezuidenhout is HaagseTaxiApp de logische keuze. Wij brengen u snel van Station HS naar uw vergadering, van kantoor naar Schiphol, of van het World Forum naar uw hotel. Onze chauffeurs kennen alle kantoorgebouwen, ministeries en conferentielocaties in de omgeving.",
+        "services": ["Stationsvervoer van en naar Hollands Spoor", "Zakelijk vervoer naar Beatrixkwartier en ministeries", "Luchthavenvervoer voor zakenreizigers", "Conferentievervoer naar World Forum"],
+        "uniquePoints": ["Direct aan Station Hollands Spoor", "Expertise in zakelijk vervoer en tijdkritische ritten", "Kennis van alle kantoorlocaties in Beatrixkwartier", "Snelle verbindingen naar Schiphol voor zakenreizigers"],
+        "landmarks": ["Station Hollands Spoor", "Beatrixkwartier", "World Forum", "Ministeries", "Koningin Julianaplein"],
+        "transportTips": "Bezuidenhout is uitstekend verbonden met de rest van Nederland via Station HS. Schiphol bereikt u in circa 32 minuten. Het World Forum ligt op 10 minuten rijden. Voor vroege vluchten adviseren wij om de avond ervoor te boeken - wij staan klaar wanneer u ons nodig heeft."
+      },
+      "coordinates": { "lat": 52.0789, "lng": 4.3294 }
+    },
+    {
+      "slug": "segbroek",
+      "name": "Segbroek",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Vriendelijke taxiservice in Segbroek, een levendige wijk met diverse buurten als Regentessekwartier en Valkenboskwartier. Bekijk om zijn gezellige sfeer en goede voorzieningen, biedt Segbroek een fijne woonplek. Onze taxi's zijn snel ter plaatse.",
+      "metaTitle": "Taxi Segbroek | Regentessekwartier | 070-204 2200",
+      "metaDescription": "Taxi Segbroek bestellen? ✓ Regentessekwartier & Valkenboskwartier ✓ Schiphol vanaf €79,50 ✓ Vaste prijzen ✓ 24/7. Bel 070-204 2200.",
+      "heroText": "Taxi in Segbroek",
+      "highlights": ["Regentessekwartier", "Valkenboskwartier", "Lokale kennis", "Snelle service"],
+      "popularRoutes": [
+        { "from": "Segbroek", "to": "Schiphol", "price": "€79,50", "duration": "38 min" },
+        { "from": "Regentessekwartier", "to": "Den Haag CS", "price": "€14,50", "duration": "10 min" },
+        { "from": "Valkenboskwartier", "to": "Scheveningen", "price": "€14,50", "duration": "12 min" }
+      ],
+      "neighborhoods": ["Regentessekwartier", "Valkenboskwartier", "Vruchtenbuurt", "Vogelwijk"],
+      "seoContent": {
+        "intro": "Segbroek is een van de meest populaire en karaktervolle stadsdelen van Den Haag. De wijk omvat geliefde buurten als het bruisende Regentessekwartier met zijn winkels en horeca, het rustige Valkenboskwartier met veel groen, en de Vruchtenbuurt met zijn schilderachtige straten vernoemd naar fruit. Hier woont een mix van jonge professionals, gezinnen en senioren.",
+        "extendedContent": "Het Regentessekwartier rond de Weimarstraat is het kloppend hart van Segbroek, met lokale winkels, cafés en restaurants. Het Valkenboskwartier biedt rust en ruimte met de Valkenboskerk als herkenningspunt. De Vruchtenbuurt charmeer met zijn straatnamen als Appelstraat en Perenlaan.\n\nHaagseTaxiApp kent Segbroek op de duim. Onze chauffeurs weten waar ze moeten zijn, kennen de snelste routes en brengen u comfortabel naar uw bestemming. Of dat nu het station is, de luchthaven, of een bezoek aan familie elders in de stad - wij zijn er voor u met vriendelijke service en vaste prijzen.",
+        "services": ["Lokaal vervoer binnen de wijk", "Stationsvervoer naar CS en HS", "Luchthavenvervoer naar Schiphol", "Zorgvervoer naar HMC ziekenhuizen"],
+        "uniquePoints": ["Uitstekende kennis van alle buurten in Segbroek", "Snelle aanrijtijden in de hele wijk", "Vriendelijke, lokale chauffeurs", "Flexibele ophaalpunten in smalle straten"],
+        "landmarks": ["Regentessekwartier & Weimarstraat", "Valkenboskwartier", "Vruchtenbuurt", "Zuiderpark (nabij)", "Frederik Hendrikplein"],
+        "transportTips": "Segbroek ligt tussen het centrum en Scheveningen, waardoor beide bestemmingen snel bereikbaar zijn. Het centrum is 10 minuten, Scheveningen 12 minuten. Schiphol bereikt u in circa 38 minuten. In de smalle straten van de Vruchtenbuurt is een taxi vaak handiger dan een eigen auto."
+      },
+      "coordinates": { "lat": 52.0711, "lng": 4.2822 }
+    },
+    {
+      "slug": "laak",
+      "name": "Laak",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Betaalbare taxiservice in Laak, een multiculturele wijk nabij de stations. Met diverse buurten als Laakkwartier en Spoorwijk, is Laak een dynamisch stadsdeel. Onze taxi's bieden betrouwbaar vervoer tegen scherpe tarieven.",
+      "metaTitle": "Taxi Laak | Laakkwartier & Spoorwijk | 070-204 2200",
+      "metaDescription": "Taxi Laak bestellen? ✓ Laakkwartier & Spoorwijk ✓ Nabij beide stations ✓ Schiphol vanaf €79,50 ✓ Vaste prijzen ✓ 24/7. Bel 070-204 2200.",
+      "heroText": "Taxi in Laak",
+      "highlights": ["Nabij stations", "Betaalbaar", "Snel beschikbaar", "24/7 Service"],
+      "popularRoutes": [
+        { "from": "Laak", "to": "Schiphol", "price": "€79,50", "duration": "35 min" },
+        { "from": "Laakkwartier", "to": "Den Haag CS", "price": "€14,50", "duration": "8 min" },
+        { "from": "Spoorwijk", "to": "Station HS", "price": "€14,50", "duration": "5 min" }
+      ],
+      "neighborhoods": ["Laakkwartier", "Spoorwijk", "Binckhorst"],
+      "seoContent": {
+        "intro": "Laak is een levendig en multicultureel stadsdeel centraal gelegen tussen Station Den Haag Centraal en Station Hollands Spoor. De wijk omvat het Laakkwartier, Spoorwijk en het opkomende Binckhorst-gebied dat momenteel wordt getransformeerd tot een moderne woon- en werkwijk. Laak biedt betaalbaar wonen op een centrale locatie.",
+        "extendedContent": "Het Laakkwartier en Spoorwijk hebben een diverse bevolking en een breed aanbod aan winkels en eetgelegenheden uit alle windstreken. De Binckhorst, ooit een industriegebied, ontwikkelt zich tot een bruisende stadswijk met creatieve bedrijven en nieuwe woningen. De centrale ligging maakt Laak populair bij studenten en jonge professionals.\n\nHaagseTaxiApp biedt in Laak betaalbare en betrouwbare taxiservice. Door de centrale ligging nabij beide stations bent u snel op uw bestemming. Of u nu van Station HS naar huis wilt, vroeg op moet voor een vlucht naar Schiphol, of 's nachts veilig thuis wilt komen na een avondje uit - wij zijn 24/7 beschikbaar tegen eerlijke prijzen.",
+        "services": ["Stationsvervoer naar CS en HS", "Luchthavenvervoer naar Schiphol", "Nachtvervoer na uitgaan", "Woon-werkvervoer voor forenzen"],
+        "uniquePoints": ["Centrale ligging tussen beide grote stations", "Betaalbare tarieven zonder verborgen kosten", "24/7 beschikbaar, ook 's nachts", "Snelle beschikbaarheid door centrale ligging"],
+        "landmarks": ["Station Hollands Spoor", "Laakkwartier", "Spoorwijk", "Binckhorst", "Haagse Markt (nabij)"],
+        "transportTips": "Laak is ideaal gelegen voor openbaar vervoer, maar voor directe verbindingen naar Schiphol of Rotterdam is een taxi vaak sneller en comfortabeler. Station HS bereikt u in 5 minuten, Schiphol in 35 minuten. De Binckhorst is in ontwikkeling - onze chauffeurs kennen de actuele situatie."
+      },
+      "coordinates": { "lat": 52.0656, "lng": 4.3228 }
+    },
+    {
+      "slug": "mariahoeve",
+      "name": "Mariahoeve",
+      "type": "neighborhood",
+      "parentCity": "Den Haag",
+      "description": "Betrouwbare taxiservice in Mariahoeve, een groene wijk in het noordoosten van Den Haag. Met veel groen, goede voorzieningen en nabijheid tot station Mariahoeve. Onze taxi's bieden snelle verbindingen naar alle bestemmingen.",
+      "metaTitle": "Taxi Mariahoeve | Schiphol vanaf €79,50 | 070-204 2200",
+      "metaDescription": "Taxi Mariahoeve bestellen? ✓ Station Mariahoeve ✓ Schiphol vanaf €79,50 ✓ Snelle route A4 ✓ Vaste prijzen ✓ 24/7. Bel 070-204 2200.",
+      "heroText": "Taxi in Mariahoeve",
+      "highlights": ["Station Mariahoeve", "Groene wijk", "Snelle verbindingen", "Vaste prijzen"],
+      "popularRoutes": [
+        { "from": "Mariahoeve", "to": "Schiphol", "price": "€79,50", "duration": "30 min" },
+        { "from": "Station Mariahoeve", "to": "Den Haag CS", "price": "€14,50", "duration": "10 min" },
+        { "from": "Mariahoeve", "to": "Voorburg", "price": "€14,50", "duration": "8 min" }
+      ],
+      "neighborhoods": ["Mariahoeve-Noord", "Mariahoeve-Zuid", "Haagse Hout"],
+      "seoContent": {
+        "intro": "Mariahoeve is een groene en ruim opgezette wijk in het noordoosten van Den Haag, gebouwd in de jaren '60. De wijk kenmerkt zich door brede lanen, veel groen en een mix van flats en eengezinswoningen. Station Mariahoeve aan de Randstadrail biedt snelle verbindingen naar Den Haag Centraal, Zoetermeer en de rest van de regio.",
+        "extendedContent": "Mariahoeve is populair bij gezinnen vanwege de ruimte, het groen en de goede scholen. De wijk heeft twee delen: Mariahoeve-Noord met meer hoogbouw en Mariahoeve-Zuid met eengezinswoningen en een dorpser karakter. Het winkelcentrum aan het Jonckbloetplein voorziet in dagelijkse boodschappen.\n\nHaagseTaxiApp bedient Mariahoeve met snelle en betrouwbare service. Dankzij de gunstige ligging nabij de A4 bereikt u Schiphol in slechts 30 minuten - ideaal voor vakantiegangers en zakenreizigers. Onze chauffeurs kennen de hele wijk en zorgen voor een comfortabele rit naar elke bestemming.",
+        "services": ["Stationsvervoer van en naar Mariahoeve station", "Luchthavenvervoer via snelle A4 route", "Schoolvervoer naar basisscholen en middelbare scholen", "Zorgvervoer naar HMC en huisartsen"],
+        "uniquePoints": ["Station Mariahoeve voor snelle Randstadrail verbinding", "Snelste route naar Schiphol via A4 (30 min)", "Complete kennis van Mariahoeve-Noord en -Zuid", "Ruime voertuigen voor gezinnen"],
+        "landmarks": ["Station Mariahoeve", "Jonckbloetplein winkelcentrum", "Haagse Hout (nabij)", "Louwman Museum (nabij)", "Bezuidenhout park"],
+        "transportTips": "Mariahoeve profiteert van de nabijheid van de A4 en A12. Schiphol is in 30 minuten bereikbaar, Den Haag Centraal in 10 minuten. Station Mariahoeve biedt een alternatief voor de trein, maar een taxi is comfortabeler met bagage en bespaart overstaptijd."
+      },
+      "coordinates": { "lat": 52.0883, "lng": 4.3528 }
+    }
+  ]
+}

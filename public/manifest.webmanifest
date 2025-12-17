@@ -1,0 +1,27 @@
+{
+  "name": "HaagseTaxiApp",
+  "short_name": "HaagseTaxi",
+  "description": "Betrouwbare taxiservice in Den Haag en omgeving. 24/7 beschikbaar, vaste prijzen.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "lang": "nl",
+  "categories": ["transportation", "travel"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/Taxi.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
