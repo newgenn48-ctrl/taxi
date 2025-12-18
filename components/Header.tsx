@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { cn } from '@/lib/utils'
 import { businessConfig, getWhatsAppUrl, getPhoneUrl } from '@/lib/config'
 
@@ -11,7 +10,6 @@ const navigation = [
   { name: 'Tarieven', href: '#tarieven' },
   { name: 'Diensten', href: '#diensten' },
   { name: 'Locaties', href: '#locaties' },
-  { name: 'Reviews', href: '#reviews' },
   { name: 'Contact', href: '#contact' },
 ]
 
