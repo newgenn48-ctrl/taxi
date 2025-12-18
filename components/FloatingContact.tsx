@@ -6,16 +6,35 @@ import { businessConfig, getWhatsAppUrl, getPhoneUrl } from '@/lib/config'
 export default function FloatingContact() {
   const [isExpanded, setIsExpanded] = useState(false)
   const [showPulse, setShowPulse] = useState(true)
+  const [isVisible, setIsVisible] = useState(false)
 
   useEffect(() => {
     const timer = setTimeout(() => setShowPulse(false), 10000)
     return () => clearTimeout(timer)
   }, [])
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY
+      const windowHeight = window.innerHeight
+      const documentHeight = document.documentElement.scrollHeight
+
+      // Hide in hero (first screen) and footer (last ~400px)
+      const inHero = scrollY < windowHeight * 0.8
+      const inFooter = scrollY + windowHeight > documentHeight - 400
+
+      setIsVisible(!inHero && !inFooter)
+    }
+
+    handleScroll() // Check initial position
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
     <>
       {/* Floating WhatsApp Button - Desktop */}
-      <div className="fixed bottom-6 right-6 z-50 flex-col items-end gap-3 hidden md:flex">
+      <div className={`fixed bottom-6 right-6 z-50 flex-col items-end gap-3 hidden md:flex transition-all duration-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'}`}>
         {isExpanded && (
           <div className="flex flex-col gap-2 animate-fade-in">
             <a
@@ -87,7 +106,7 @@ export default function FloatingContact() {
       </div>
 
       {/* Mobile bottom bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-accent-200 shadow-luxury-lg md:hidden">
+      <div className={`fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-accent-200 shadow-luxury-lg md:hidden transition-all duration-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full pointer-events-none'}`}>
         <div className="grid grid-cols-2 divide-x divide-accent-200">
           <a
             href={getPhoneUrl()}

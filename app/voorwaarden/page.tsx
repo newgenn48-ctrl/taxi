@@ -24,7 +24,7 @@ export default function VoorwaardenPage() {
               <p>
                 Deze algemene voorwaarden zijn van toepassing op alle diensten van HaagseTaxiApp,
                 gevestigd te Cartesiusstraat 186, 2562 SP Den Haag, ingeschreven bij de Kamer van
-                Koophandel onder nummer 67194346.
+                Koophandel onder nummer 67194346, BTW-nummer NL856869806B01.
               </p>
             </section>
 

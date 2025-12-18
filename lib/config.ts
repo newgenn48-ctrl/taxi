@@ -22,7 +22,7 @@ export const businessConfig = {
     name: 'HaagseTaxiApp',
     legalName: 'HaagseTaxiApp',
     kvk: '67194346',
-    btw: '',                           // TODO: Voeg BTW nummer toe
+    btw: 'NL856869806B01',
     address: {
       street: 'Cartesiusstraat 186',
       city: 'Den Haag',
@@ -78,13 +78,6 @@ export const businessConfig = {
   hours: {
     open24_7: true,
     description: '24 uur per dag, 7 dagen per week',
-  },
-
-  // === SOCIAL MEDIA ===
-  social: {
-    facebook: '',            // TODO: Voeg toe indien beschikbaar
-    instagram: '',           // TODO: Voeg toe indien beschikbaar
-    linkedin: '',            // TODO: Voeg toe indien beschikbaar
   },
 
   // === BOOKING ===

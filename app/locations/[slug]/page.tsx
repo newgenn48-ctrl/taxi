@@ -402,7 +402,8 @@ export default async function LocationPage({ params }: Props) {
               </h1>
 
               <p className="text-lg md:text-xl text-accent-200 mb-5 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                <strong className="text-white">Taxi {location.name}</strong> nodig? {location.hero?.subheadline || location.description}
+                <strong className="text-white">Taxi {location.name}</strong> nodig? Boek snel uw taxi met{' '}
+                <strong className="text-white">vaste tarieven</strong> en professionele chauffeurs.
               </p>
 
               {/* USP Bullets */}
@@ -834,17 +835,6 @@ export default async function LocationPage({ params }: Props) {
                   <p className="text-2xl md:text-3xl font-bold text-primary-600">€125,-</p>
                 </div>
 
-                {/* Meet & Greet */}
-                <div className="bg-primary-50 rounded-xl p-4 mt-2">
-                  <div className="flex flex-wrap justify-center gap-4 text-sm text-accent-700">
-                    <span className="flex items-center gap-2">
-                      <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                      Meet & Greet
-                    </span>
-                  </div>
-                </div>
               </div>
 
               {/* Photo */}

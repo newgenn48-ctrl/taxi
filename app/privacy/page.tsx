@@ -37,7 +37,8 @@ export default function PrivacyPage() {
                 2562 SP Den Haag<br />
                 Telefoon: 070-204 2200<br />
                 E-mail: info@haagsetaxiapp.nl<br />
-                KvK: 67194346
+                KvK: 67194346<br />
+                BTW: NL856869806B01
               </p>
             </section>
 

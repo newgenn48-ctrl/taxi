@@ -48,9 +48,8 @@ export default function HeroWithIframe() {
             </h1>
 
             <p className="text-lg md:text-xl text-accent-200 mb-5 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              <strong className="text-white">Taxi Den Haag</strong> nodig? Boek snel en eenvoudig uw taxi met{' '}
-              <strong className="text-white">vaste tarieven</strong>. Professionele chauffeurs, comfortabele auto&apos;s
-              en binnen enkele minuten bij u.
+              <strong className="text-white">Taxi Den Haag</strong> nodig? Boek snel uw taxi met{' '}
+              <strong className="text-white">vaste tarieven</strong> en professionele chauffeurs.
             </p>
 
             {/* USP Bullets */}
