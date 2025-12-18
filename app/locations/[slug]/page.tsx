@@ -402,7 +402,7 @@ export default async function LocationPage({ params }: Props) {
               </h1>
 
               <p className="text-lg md:text-xl text-accent-200 mb-5 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                {location.hero?.subheadline || location.description}
+                <strong className="text-white">Taxi {location.name}</strong> nodig? {location.hero?.subheadline || location.description}
               </p>
 
               {/* USP Bullets */}
