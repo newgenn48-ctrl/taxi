@@ -22,5 +22,16 @@ export default function InlineWebbooker() {
     }
   }, [])
 
-  return <div ref={containerRef} className="w-full" />
+  return (
+    <div className="w-full overflow-hidden">
+      {/* Simpele premium rand */}
+      <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden ring-2 ring-orange-500/20 ring-offset-2 ring-offset-white">
+        {/* Oranje accent lijn bovenaan */}
+        <div className="h-1 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600" />
+
+        {/* Formulier */}
+        <div ref={containerRef} className="w-full overflow-hidden" />
+      </div>
+    </div>
+  )
 }
