@@ -59,10 +59,10 @@ export default function Header() {
               HaagseTaxiApp
             </span>
             <span className={cn(
-              "text-xs transition-colors",
+              "text-xs font-medium transition-colors",
               isScrolled ? "text-primary-500" : "text-primary-400"
             )}>
-              Betrouwbare Taxiservice
+              070-204 2200
             </span>
           </div>
         </Link>
