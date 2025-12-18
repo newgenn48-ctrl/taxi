@@ -783,22 +783,8 @@ export default async function LocationPage({ params }: Props) {
             <h3 className="text-lg font-bold text-accent-900 text-center mb-6">Luchthaven Tarieven</h3>
 
             <div className="grid lg:grid-cols-2 gap-6 items-stretch">
-              {/* Photo */}
-              <div className="relative rounded-2xl overflow-hidden shadow-xl h-64 lg:h-auto lg:min-h-[400px]">
-                <Image
-                  src="/images/taxi naar schiphol.webp"
-                  alt={`Taxi ${location.name} naar Schiphol - Comfortabel en betrouwbaar`}
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-accent-900/90 to-transparent p-6">
-                  <p className="text-white font-bold text-lg">Taxi naar Schiphol</p>
-                  <p className="text-white/80 text-sm">Comfortabel & op tijd</p>
-                </div>
-              </div>
-
               {/* Pricing Cards */}
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4 order-2 lg:order-1">
                 {/* Schiphol */}
                 <div className="bg-accent-900 rounded-xl p-5 flex items-center justify-between hover:bg-accent-800 transition-colors">
                   <div className="flex items-center gap-4">
@@ -858,6 +844,20 @@ export default async function LocationPage({ params }: Props) {
                       Meet & Greet
                     </span>
                   </div>
+                </div>
+              </div>
+
+              {/* Photo */}
+              <div className="relative rounded-2xl overflow-hidden shadow-xl h-64 lg:h-auto lg:min-h-[400px] order-1 lg:order-2">
+                <Image
+                  src="/images/taxi naar schiphol.webp"
+                  alt={`Taxi ${location.name} naar Schiphol - Comfortabel en betrouwbaar`}
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-accent-900/90 to-transparent p-6">
+                  <p className="text-white font-bold text-lg">Taxi naar Schiphol</p>
+                  <p className="text-white/80 text-sm">Comfortabel & op tijd</p>
                 </div>
               </div>
             </div>
