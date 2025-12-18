@@ -17,6 +17,7 @@ const footerLinks = {
   ],
   bedrijf: [
     { name: 'Over Ons', href: '/over-ons' },
+    { name: 'Reviews', href: '#reviews' },
     { name: 'Veelgestelde Vragen', href: '/faq' },
     { name: 'Contact', href: '#contact' },
   ],

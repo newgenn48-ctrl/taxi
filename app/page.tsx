@@ -2,6 +2,7 @@ import HeroWithIframe from '@/components/HeroWithIframe'
 import ServicesSection from '@/components/ServicesSection'
 import PricingSection from '@/components/PricingSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
+import ReviewsSection from '@/components/ReviewsSection'
 import LocationSEOSection from '@/components/LocationSEOSection'
 import {
   SchipholTaxiSchema,
@@ -32,10 +33,13 @@ export default function HomePage() {
       {/* 4. Waarom wij */}
       <WhyChooseUs />
 
-      {/* 5. Locaties - compact */}
+      {/* 5. Reviews */}
+      <ReviewsSection />
+
+      {/* 6. Locaties - compact */}
       <LocationSEOSection locations={locationsData.locations} />
 
-      {/* 6. FAQ Section for SEO */}
+      {/* 7. FAQ Section for SEO */}
       <section className="py-16 bg-white">
         <div className="container-luxury">
           <div className="text-center mb-10">
