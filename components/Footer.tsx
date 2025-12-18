@@ -17,7 +17,6 @@ const footerLinks = {
   ],
   bedrijf: [
     { name: 'Over Ons', href: '/over-ons' },
-    { name: 'Reviews', href: '#reviews' },
     { name: 'Veelgestelde Vragen', href: '/faq' },
     { name: 'Contact', href: '#contact' },
   ],
@@ -87,22 +86,11 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6 group">
-              <div className="w-12 h-12 bg-gradient-orange rounded-xl flex items-center justify-center shadow-orange group-hover:scale-105 transition-transform">
-                <svg
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M8 17h8M8 17a2 2 0 11-4 0 2 2 0 014 0zM8 17H6m10 0a2 2 0 104 0 2 2 0 00-4 0zm0 0h-2m2-5l-2-5H9L7 12m13 0h-3m-8 0H4"
-                  />
-                </svg>
-              </div>
+              <img
+                src="/images/logo.png"
+                alt="HaagseTaxiApp Logo"
+                className="w-12 h-12 object-contain group-hover:scale-105 transition-transform"
+              />
               <div className="flex flex-col">
                 <span className="font-bold text-xl">HaagseTaxiApp</span>
                 <span className="text-primary-400 text-xs font-medium">Betrouwbare Taxiservice</span>
