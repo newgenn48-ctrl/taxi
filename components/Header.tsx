@@ -7,10 +7,10 @@ import { businessConfig, getWhatsAppUrl, getPhoneUrl } from '@/lib/config'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Tarieven', href: '#tarieven' },
-  { name: 'Diensten', href: '#diensten' },
-  { name: 'Reviews', href: '#reviews' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Tarieven', href: '/#tarieven' },
+  { name: 'Diensten', href: '/#diensten' },
+  { name: 'Reviews', href: '/#reviews' },
+  { name: 'Contact', href: '/#contact' },
 ]
 
 export default function Header() {
