@@ -387,10 +387,8 @@ export default async function LocationPage({ params }: Props) {
 
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Mobile: Booking Widget - FIRST on mobile */}
-            <div className="lg:hidden animate-fade-in order-1 w-full overflow-hidden">
-              <div className="w-full max-w-[calc(100vw-32px)] mx-auto">
-                <InlineWebbooker />
-              </div>
+            <div className="lg:hidden animate-fade-in order-1">
+              <InlineWebbooker />
             </div>
 
             {/* Left Column - Content (Second on mobile, First on desktop) */}
