@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
 import { businessConfig, getWhatsAppUrl, getPhoneUrl } from '@/lib/config'
 
@@ -42,27 +43,13 @@ export default function Header() {
           className="flex items-center gap-3 group"
           aria-label="HaagseTaxiApp - Terug naar home"
         >
-          <div className={cn(
-            "w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300",
-            isScrolled
-              ? "bg-gradient-orange shadow-orange"
-              : "bg-white/10 backdrop-blur-sm border border-white/20"
-          )}>
-            <svg
-              className="w-5 h-5 text-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M8 17h8M8 17a2 2 0 11-4 0 2 2 0 014 0zM8 17H6m10 0a2 2 0 104 0 2 2 0 00-4 0zm0 0h-2m2-5l-2-5H9L7 12m13 0h-3m-8 0H4"
-              />
-            </svg>
-          </div>
+          <img
+            src="/images/logo.png"
+            alt="HaagseTaxiApp Logo"
+            width={40}
+            height={40}
+            className="w-10 h-10 object-contain"
+          />
           <div className="flex flex-col">
             <span
               className={cn(

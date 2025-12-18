@@ -88,43 +88,98 @@ export default function PricingSection() {
           </div>
         </div>
 
-        {/* Airport Pricing Cards */}
-        <div className="max-w-3xl mx-auto mb-10">
-          <h3 className="text-lg font-bold text-accent-900 text-center mb-6">Luchthaven Tarieven</h3>
-          <div className="grid md:grid-cols-3 gap-4">
-            <div className="bg-white rounded-xl p-5 shadow-lg border-2 border-primary-500 relative">
-              <div className="absolute -top-2 left-1/2 -translate-x-1/2">
-                <span className="px-2 py-0.5 bg-primary-500 text-white text-xs font-bold rounded-full">Populair</span>
+        {/* Airport Pricing Section with Photo */}
+        <div className="max-w-5xl mx-auto mb-10">
+          <h3 className="text-xl font-bold text-accent-900 text-center mb-6">Luchthaven Tarieven</h3>
+
+          <div className="grid lg:grid-cols-2 gap-6 items-stretch">
+            {/* Photo */}
+            <div className="relative rounded-2xl overflow-hidden shadow-xl h-64 lg:h-auto lg:min-h-[400px]">
+              <img
+                src="/images/taxi naar schiphol.webp"
+                alt="Taxi naar Schiphol - Comfortabel en betrouwbaar"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-accent-900/90 to-transparent p-6">
+                <p className="text-white font-bold text-lg">Taxi naar Schiphol</p>
+                <p className="text-white/80 text-sm">Comfortabel & op tijd</p>
               </div>
-              <div className="flex items-center gap-2 mb-3">
-                <svg className="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                </svg>
-                <span className="font-semibold text-accent-900">Schiphol</span>
-              </div>
-              <p className="text-2xl font-bold text-primary-600">€79,50</p>
-              <p className="text-xs text-accent-500 mt-1">vaste prijs</p>
             </div>
-            <div className="bg-white rounded-xl p-5 shadow-lg border border-accent-100">
-              <div className="flex items-center gap-2 mb-3">
-                <svg className="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                </svg>
-                <span className="font-semibold text-accent-900">Rotterdam Airport</span>
+
+            {/* Pricing Cards */}
+            <div className="flex flex-col gap-4">
+              {/* Schiphol */}
+              <div className="bg-accent-900 rounded-xl p-5 flex items-center justify-between hover:bg-accent-800 transition-colors">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="font-bold text-white text-lg">Schiphol Airport</p>
+                    <p className="text-primary-300 text-sm">Meest geboekt • ca. 35 min</p>
+                  </div>
+                </div>
+                <p className="text-2xl md:text-3xl font-bold text-white">€79,50</p>
               </div>
-              <p className="text-2xl font-bold text-primary-600">€55,-</p>
-              <p className="text-xs text-accent-500 mt-1">vaste prijs</p>
-            </div>
-            <div className="bg-white rounded-xl p-5 shadow-lg border border-accent-100">
-              <div className="flex items-center gap-2 mb-3">
-                <svg className="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                <span className="font-semibold text-accent-900">Amsterdam</span>
+
+              {/* Rotterdam */}
+              <div className="bg-white rounded-xl p-5 flex items-center justify-between border-2 border-accent-100 hover:border-primary-200 transition-colors">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-accent-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="font-bold text-accent-900 text-lg">Rotterdam Airport</p>
+                    <p className="text-accent-500 text-sm">The Hague Airport • ca. 20 min</p>
+                  </div>
+                </div>
+                <p className="text-2xl md:text-3xl font-bold text-primary-600">€55,-</p>
               </div>
-              <p className="text-2xl font-bold text-primary-600">€125,-</p>
-              <p className="text-xs text-accent-500 mt-1">vaste prijs</p>
+
+              {/* Amsterdam */}
+              <div className="bg-white rounded-xl p-5 flex items-center justify-between border-2 border-accent-100 hover:border-primary-200 transition-colors">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-accent-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="font-bold text-accent-900 text-lg">Amsterdam Centrum</p>
+                    <p className="text-accent-500 text-sm">Vaste prijs • ca. 50 min</p>
+                  </div>
+                </div>
+                <p className="text-2xl md:text-3xl font-bold text-primary-600">€125,-</p>
+              </div>
+
+              {/* Features */}
+              <div className="bg-primary-50 rounded-xl p-4 mt-2">
+                <div className="flex flex-wrap justify-center gap-4 text-sm text-accent-700">
+                  <span className="flex items-center gap-2">
+                    <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    Flight tracking
+                  </span>
+                  <span className="flex items-center gap-2">
+                    <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    60 min gratis wachten
+                  </span>
+                  <span className="flex items-center gap-2">
+                    <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    Meet & Greet
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
