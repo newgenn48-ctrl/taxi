@@ -35,6 +35,12 @@ export default function HeroWithIframe() {
           {/* Mobile: Booking Widget - FIRST on mobile */}
           <div className="lg:hidden animate-fade-in order-1 w-full overflow-hidden">
             <div className="w-full max-w-[calc(100vw-32px)] mx-auto">
+              <p className="text-center text-white mb-3 text-sm">
+                Boek online of bel{' '}
+                <a href={`tel:${contact.phone}`} className="text-primary-400 font-semibold hover:underline">
+                  {contact.phoneDisplay}
+                </a>
+              </p>
               <InlineWebbooker />
             </div>
           </div>
@@ -125,6 +131,12 @@ export default function HeroWithIframe() {
 
           {/* Right Column - Booking Widget (Desktop) */}
           <div className="animate-fade-in hidden lg:block order-2">
+            <p className="text-center text-white mb-3">
+              Boek online of bel{' '}
+              <a href={`tel:${contact.phone}`} className="text-primary-400 font-semibold hover:underline">
+                {contact.phoneDisplay}
+              </a>
+            </p>
             <InlineWebbooker />
           </div>
         </div>

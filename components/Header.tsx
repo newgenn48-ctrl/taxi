@@ -37,19 +37,19 @@ export default function Header() {
     >
       <nav className="container-luxury flex items-center justify-between px-4 md:px-8">
         {/* Logo */}
-        <div className="flex items-center gap-3">
-          <Link
-            href="/"
-            className="flex items-center gap-3 group"
-            aria-label="HaagseTaxiApp - Terug naar home"
-          >
-            <img
-              src="/images/logo.png"
-              alt="HaagseTaxiApp Logo"
-              width={40}
-              height={40}
-              className="w-10 h-10 object-contain"
-            />
+        <Link
+          href="/"
+          className="flex items-center gap-3 group"
+          aria-label="HaagseTaxiApp - Terug naar home"
+        >
+          <img
+            src="/images/logo.png"
+            alt="HaagseTaxiApp Logo"
+            width={40}
+            height={40}
+            className="w-10 h-10 object-contain"
+          />
+          <div className="flex flex-col">
             <span
               className={cn(
                 'font-bold text-lg leading-tight transition-colors',
@@ -58,17 +58,14 @@ export default function Header() {
             >
               HaagseTaxiApp
             </span>
-          </Link>
-          <a
-            href="tel:+31702042200"
-            className={cn(
-              "text-xs font-medium transition-colors hover:underline",
+            <span className={cn(
+              "text-xs transition-colors",
               isScrolled ? "text-primary-500" : "text-primary-400"
-            )}
-          >
-            070-204 2200
-          </a>
-        </div>
+            )}>
+              Betrouwbare Taxiservice
+            </span>
+          </div>
+        </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-1">
