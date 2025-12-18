@@ -59,7 +59,7 @@ export default function Header() {
             </span>
             <span className={cn(
               "text-xs transition-colors",
-              isScrolled ? "text-accent-500" : "text-white/70"
+              isScrolled ? "text-primary-500" : "text-primary-400"
             )}>
               Betrouwbare Taxiservice
             </span>
