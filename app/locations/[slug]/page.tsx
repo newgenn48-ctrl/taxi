@@ -407,14 +407,30 @@ export default async function LocationPage({ params }: Props) {
 
               {/* USP Bullets */}
               <ul className="flex flex-wrap justify-center lg:justify-start gap-x-6 gap-y-2 mb-6 text-sm md:text-base">
-                {location.highlights.slice(0, 4).map((highlight) => (
-                  <li key={highlight} className="flex items-center gap-2 text-accent-200">
-                    <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    {highlight}
-                  </li>
-                ))}
+                <li className="flex items-center gap-2 text-accent-200">
+                  <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  TX-Keurmerk gecertificeerd
+                </li>
+                <li className="flex items-center gap-2 text-accent-200">
+                  <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  Comfortabele voertuigen
+                </li>
+                <li className="flex items-center gap-2 text-accent-200">
+                  <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  Vaste tarieven, geen verrassingen
+                </li>
+                <li className="flex items-center gap-2 text-accent-200">
+                  <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  24/7 bereikbaar
+                </li>
               </ul>
 
               {/* Desktop CTAs */}
@@ -497,58 +513,6 @@ export default async function LocationPage({ params }: Props) {
         </div>
       </div>
 
-      {/* Trust Badges Section - Modern 3D Cards */}
-      <section className="py-10 bg-gradient-to-b from-accent-50 to-white">
-        <div className="container-luxury">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            {/* TX-Keurmerk */}
-            <div className="bg-white rounded-2xl p-5 shadow-lg border border-accent-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-              <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-3">
-                <svg className="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h3 className="font-bold text-accent-900 mb-1">TX-Keurmerk</h3>
-              <p className="text-sm text-accent-600">Gecertificeerde kwaliteit</p>
-            </div>
-
-            {/* 24/7 */}
-            <div className="bg-white rounded-2xl p-5 shadow-lg border border-accent-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-              <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-3">
-                <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="font-bold text-accent-900 mb-1">24/7 Beschikbaar</h3>
-              <p className="text-sm text-accent-600">Dag en nacht bereikbaar</p>
-            </div>
-
-            {/* Vaste Prijzen */}
-            <div className="bg-white rounded-2xl p-5 shadow-lg border border-accent-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-              <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-3">
-                <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="font-bold text-accent-900 mb-1">Vaste Prijzen</h3>
-              <p className="text-sm text-accent-600">Geen verrassingen</p>
-            </div>
-
-            {/* Gratis Annuleren */}
-            <div className="bg-white rounded-2xl p-5 shadow-lg border border-accent-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-              <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-3">
-                <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="font-bold text-accent-900 mb-1">Gratis Annuleren</h3>
-              <p className="text-sm text-accent-600">Tot 1 uur van tevoren</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* USPs Section - REMOVED: Trust Badges section already shows this info */}
 
       {/* Waarom HaagseTaxiApp - With Image */}
       <section className="py-16 bg-white overflow-hidden">
@@ -814,42 +778,87 @@ export default async function LocationPage({ params }: Props) {
             </div>
           </div>
 
-          {/* Airport Pricing Cards */}
-          <div className="max-w-3xl mx-auto">
+          {/* Airport Pricing Section with Photo */}
+          <div className="max-w-5xl mx-auto">
             <h3 className="text-lg font-bold text-accent-900 text-center mb-6">Luchthaven Tarieven</h3>
-            <div className="grid md:grid-cols-3 gap-4">
-              <div className="bg-white rounded-xl p-5 shadow-lg border-2 border-primary-500 relative">
-                <div className="absolute -top-2 left-1/2 -translate-x-1/2">
-                  <span className="px-2 py-0.5 bg-primary-500 text-white text-xs font-bold rounded-full">Populair</span>
+
+            <div className="grid lg:grid-cols-2 gap-6 items-stretch">
+              {/* Photo */}
+              <div className="relative rounded-2xl overflow-hidden shadow-xl h-64 lg:h-auto lg:min-h-[400px]">
+                <Image
+                  src="/images/taxi naar schiphol.webp"
+                  alt={`Taxi ${location.name} naar Schiphol - Comfortabel en betrouwbaar`}
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-accent-900/90 to-transparent p-6">
+                  <p className="text-white font-bold text-lg">Taxi naar Schiphol</p>
+                  <p className="text-white/80 text-sm">Comfortabel & op tijd</p>
                 </div>
-                <div className="flex items-center gap-2 mb-3">
-                  <svg className="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                  </svg>
-                  <span className="font-semibold text-accent-900">Schiphol</span>
-                </div>
-                <p className="text-2xl font-bold text-primary-600">€79,50</p>
-                <p className="text-xs text-accent-500 mt-1">vaste prijs</p>
               </div>
-              <div className="bg-white rounded-xl p-5 shadow-lg border border-accent-100">
-                <div className="flex items-center gap-2 mb-3">
-                  <svg className="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                  </svg>
-                  <span className="font-semibold text-accent-900">Rotterdam Airport</span>
+
+              {/* Pricing Cards */}
+              <div className="flex flex-col gap-4">
+                {/* Schiphol */}
+                <div className="bg-accent-900 rounded-xl p-5 flex items-center justify-between hover:bg-accent-800 transition-colors">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-primary-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-bold text-white text-lg">Schiphol Airport</p>
+                      <p className="text-primary-300 text-sm">Meest geboekt • ca. 35 min</p>
+                    </div>
+                  </div>
+                  <p className="text-2xl md:text-3xl font-bold text-white">€79,50</p>
                 </div>
-                <p className="text-2xl font-bold text-primary-600">€55,-</p>
-                <p className="text-xs text-accent-500 mt-1">vaste prijs</p>
-              </div>
-              <div className="bg-white rounded-xl p-5 shadow-lg border border-accent-100">
-                <div className="flex items-center gap-2 mb-3">
-                  <svg className="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  </svg>
-                  <span className="font-semibold text-accent-900">Amsterdam</span>
+
+                {/* Rotterdam */}
+                <div className="bg-white rounded-xl p-5 flex items-center justify-between border-2 border-accent-100 hover:border-primary-200 transition-colors">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <svg className="w-6 h-6 text-accent-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-bold text-accent-900 text-lg">Rotterdam Airport</p>
+                      <p className="text-accent-500 text-sm">The Hague Airport • ca. 20 min</p>
+                    </div>
+                  </div>
+                  <p className="text-2xl md:text-3xl font-bold text-primary-600">€55,-</p>
                 </div>
-                <p className="text-2xl font-bold text-primary-600">€125,-</p>
-                <p className="text-xs text-accent-500 mt-1">vaste prijs</p>
+
+                {/* Amsterdam */}
+                <div className="bg-white rounded-xl p-5 flex items-center justify-between border-2 border-accent-100 hover:border-primary-200 transition-colors">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <svg className="w-6 h-6 text-accent-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-bold text-accent-900 text-lg">Amsterdam Centrum</p>
+                      <p className="text-accent-500 text-sm">Vaste prijs • ca. 50 min</p>
+                    </div>
+                  </div>
+                  <p className="text-2xl md:text-3xl font-bold text-primary-600">€125,-</p>
+                </div>
+
+                {/* Meet & Greet */}
+                <div className="bg-primary-50 rounded-xl p-4 mt-2">
+                  <div className="flex flex-wrap justify-center gap-4 text-sm text-accent-700">
+                    <span className="flex items-center gap-2">
+                      <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                      Meet & Greet
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
