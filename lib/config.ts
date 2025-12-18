@@ -21,7 +21,7 @@ export const businessConfig = {
   business: {
     name: 'HaagseTaxiApp',
     legalName: 'HaagseTaxiApp',
-    kvk: '',                           // TODO: Voeg KvK nummer toe
+    kvk: '67194346',
     btw: '',                           // TODO: Voeg BTW nummer toe
     address: {
       street: 'Cartesiusstraat 186',
