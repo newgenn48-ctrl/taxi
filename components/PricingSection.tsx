@@ -74,7 +74,7 @@ export default function PricingSection() {
               </div>
               <div className="flex items-center justify-between px-4 md:px-6 py-4 bg-accent-50">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-primary-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <span className="text-white font-bold text-sm">10+</span>
                   </div>
                   <div>

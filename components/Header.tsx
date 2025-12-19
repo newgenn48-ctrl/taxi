@@ -91,8 +91,8 @@ export default function Header() {
               className={cn(
                 "inline-flex items-center justify-center w-10 h-10 rounded-xl font-semibold transition-all duration-300",
                 isScrolled
-                  ? "bg-green-500 text-white hover:bg-green-600"
-                  : "bg-green-500 text-white hover:bg-green-600"
+                  ? "bg-green-600 text-white hover:bg-green-700"
+                  : "bg-green-600 text-white hover:bg-green-700"
               )}
               aria-label="WhatsApp HaagseTaxiApp"
             >
@@ -212,7 +212,7 @@ export default function Header() {
                 href={getWhatsAppUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-green-500 text-white font-semibold rounded-xl hover:bg-green-600 transition-colors"
+                className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-green-600 text-white font-semibold rounded-xl hover:bg-green-700 transition-colors"
                 aria-label="WhatsApp HaagseTaxiApp"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
