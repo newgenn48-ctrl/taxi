@@ -63,7 +63,7 @@ export default function LocationSEOSection({
               <p className="text-xs text-accent-500 mb-2 line-clamp-1">
                 Vaste tarieven, 24/7 beschikbaar
               </p>
-              <div className="flex items-center text-primary-600 text-sm font-medium">
+              <div className="flex items-center text-primary-700 text-sm font-medium">
                 <span>Bekijk tarieven</span>
                 <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -78,7 +78,7 @@ export default function LocationSEOSection({
           <div className="text-center">
             <Link
               href="/locations"
-              className="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 font-medium"
+              className="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 font-medium"
             >
               <span>Bekijk alle {locations.length} locaties</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

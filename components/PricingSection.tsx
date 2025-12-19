@@ -39,7 +39,7 @@ export default function PricingSection() {
               <div className="flex items-center justify-between px-4 md:px-6 py-4 hover:bg-accent-50 transition-colors">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-600 font-bold text-sm">1-4</span>
+                    <span className="text-primary-700 font-bold text-sm">1-4</span>
                   </div>
                   <div>
                     <p className="font-semibold text-accent-900">1 tot 4 kilometer</p>
@@ -51,7 +51,7 @@ export default function PricingSection() {
               <div className="flex items-center justify-between px-4 md:px-6 py-4 hover:bg-accent-50 transition-colors">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-600 font-bold text-sm">4-7</span>
+                    <span className="text-primary-700 font-bold text-sm">4-7</span>
                   </div>
                   <div>
                     <p className="font-semibold text-accent-900">4 tot 7 kilometer</p>
@@ -63,7 +63,7 @@ export default function PricingSection() {
               <div className="flex items-center justify-between px-4 md:px-6 py-4 hover:bg-accent-50 transition-colors">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-600 font-bold text-sm">7-10</span>
+                    <span className="text-primary-700 font-bold text-sm">7-10</span>
                   </div>
                   <div>
                     <p className="font-semibold text-accent-900">7 tot 10 kilometer</p>
@@ -184,7 +184,7 @@ export default function PricingSection() {
         </div>
 
         {/* Small print */}
-        <p className="text-center text-xs text-accent-400 mt-6">
+        <p className="text-center text-xs text-accent-500 mt-6">
           * Exacte ritprijs wordt berekend op basis van uw route. Boek online voor directe prijsopgave.
         </p>
       </div>

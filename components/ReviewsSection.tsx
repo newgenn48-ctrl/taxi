@@ -108,7 +108,7 @@ export default function ReviewsSection() {
                 <StarRating rating={review.rating} />
               </div>
               <p className="text-accent-600 mb-4 leading-relaxed">{review.text}</p>
-              <p className="text-xs text-accent-400">{review.date}</p>
+              <p className="text-xs text-accent-500">{review.date}</p>
             </div>
           ))}
         </div>
