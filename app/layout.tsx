@@ -1,9 +1,16 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
+import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import FloatingContact from '@/components/FloatingContact'
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://haagsetaxiapp.nl'),
@@ -76,8 +83,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="nl" data-scroll-behavior="smooth">
+    <html lang="nl" data-scroll-behavior="smooth" className={inter.className}>
       <head>
+        {/* Preconnect hints for faster loading */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://yourwebbooker.com" />
+        <link rel="preconnect" href="https://localization-api.dispatchapi.io" />
+        <link rel="preconnect" href="https://order.dispatchapi.io" />
+
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.webmanifest" />
