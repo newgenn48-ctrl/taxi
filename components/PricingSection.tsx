@@ -121,7 +121,10 @@ export default function PricingSection() {
                     <p className="text-primary-300 text-sm">Meest geboekt • ca. 35 min</p>
                   </div>
                 </div>
-                <p className="text-2xl md:text-3xl font-bold text-white">€79,50</p>
+                <div className="text-right">
+                  <p className="text-xs text-primary-300">vanaf</p>
+                  <p className="text-2xl md:text-3xl font-bold text-white">€79,50</p>
+                </div>
               </div>
 
               {/* Rotterdam */}
@@ -137,7 +140,10 @@ export default function PricingSection() {
                     <p className="text-accent-500 text-sm">The Hague Airport • ca. 20 min</p>
                   </div>
                 </div>
-                <p className="text-2xl md:text-3xl font-bold text-primary-600">€55,-</p>
+                <div className="text-right">
+                  <p className="text-xs text-accent-500">vanaf</p>
+                  <p className="text-2xl md:text-3xl font-bold text-primary-600">€55,-</p>
+                </div>
               </div>
 
               {/* Amsterdam */}
@@ -154,7 +160,10 @@ export default function PricingSection() {
                     <p className="text-accent-500 text-sm">Vaste prijs • ca. 50 min</p>
                   </div>
                 </div>
-                <p className="text-2xl md:text-3xl font-bold text-primary-600">€125,-</p>
+                <div className="text-right">
+                  <p className="text-xs text-accent-500">vanaf</p>
+                  <p className="text-2xl md:text-3xl font-bold text-primary-600">€125,-</p>
+                </div>
               </div>
 
             </div>
