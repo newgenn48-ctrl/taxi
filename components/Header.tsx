@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
 import { businessConfig, getWhatsAppUrl, getPhoneUrl } from '@/lib/config'
 
@@ -42,12 +43,13 @@ export default function Header() {
           className="flex items-center gap-3 group"
           aria-label="HaagseTaxiApp - Terug naar home"
         >
-          <img
+          <Image
             src="/images/logo.png"
             alt="HaagseTaxiApp Logo"
             width={40}
             height={40}
             className="w-10 h-10 object-contain"
+            priority
           />
           <div className="flex flex-col">
             <span

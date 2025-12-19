@@ -439,28 +439,3 @@ video {
   @apply bg-primary-100 text-primary-900;
 }
 
-/* Webbooker widget */
-inline-webbooker {
-  display: block;
-  width: 100%;
-}
-
-/* Reduceer ruimte binnen het formulier */
-inline-webbooker form,
-inline-webbooker .form-container,
-inline-webbooker .webbooker-form {
-  gap: 8px !important;
-}
-
-inline-webbooker button,
-inline-webbooker [type="submit"],
-inline-webbooker .submit-button,
-inline-webbooker .btn-submit {
-  margin-top: 8px !important;
-}
-
-inline-webbooker .form-group,
-inline-webbooker .field,
-inline-webbooker .form-field {
-  margin-bottom: 8px !important;
-}

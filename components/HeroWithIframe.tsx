@@ -24,11 +24,6 @@ export default function HeroWithIframe() {
         <div className="absolute inset-0 bg-gradient-to-t from-accent-900 via-transparent to-transparent" />
       </div>
 
-      {/* Decorative elements */}
-      <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-primary-400/10 rounded-full blur-3xl" />
-      </div>
 
       <div className="relative container-luxury section-padding pt-24 md:pt-32 lg:pt-40 pb-32">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
@@ -134,8 +129,8 @@ export default function HeroWithIframe() {
           {/* Right Column - Booking Widget (Desktop) */}
           <div className="animate-fade-in hidden lg:block order-2">
             <div className="bg-white rounded-2xl shadow-luxury-xl overflow-hidden">
-              <div className="bg-gradient-orange px-6 py-4">
-                <p className="text-center text-white font-medium">
+              <div className="bg-gradient-orange px-4 py-2.5">
+                <p className="text-center text-white text-sm font-medium">
                   Boek online of bel{' '}
                   <a href={`tel:${contact.phone}`} className="underline font-bold hover:text-white/90">
                     {contact.phoneDisplay}

@@ -252,7 +252,7 @@ export default function RootLayout({
         <Script
           src="https://yourwebbooker.com/inline-webbooker/webbooker.js"
           type="module"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
         <Header />
         <main id="main-content" className="flex-1 pb-16 md:pb-0">{children}</main>

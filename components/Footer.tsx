@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { businessConfig, getWhatsAppUrl, getPhoneUrl } from '@/lib/config'
 
 const footerLinks = {
@@ -87,9 +88,11 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6 group">
-              <img
+              <Image
                 src="/images/logo.png"
                 alt="HaagseTaxiApp Logo"
+                width={48}
+                height={48}
                 className="w-12 h-12 object-contain group-hover:scale-105 transition-transform"
               />
               <div className="flex flex-col">
