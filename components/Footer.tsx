@@ -3,10 +3,10 @@ import { businessConfig, getWhatsAppUrl, getPhoneUrl } from '@/lib/config'
 
 const footerLinks = {
   diensten: [
-    { name: 'Luchthaven Vervoer', href: '/diensten/luchthaven' },
-    { name: 'Zakelijk Vervoer', href: '/diensten/zakelijk' },
-    { name: 'Schiphol Taxi', href: '/diensten/schiphol' },
-    { name: 'Rolstoel Taxi', href: '/diensten/rolstoel' },
+    { name: 'Luchthaven Vervoer', href: '/#diensten' },
+    { name: 'Zakelijk Vervoer', href: '/#diensten' },
+    { name: 'Schiphol Taxi', href: '/#tarieven' },
+    { name: 'Groepsvervoer', href: '/#diensten' },
   ],
   locaties: [
     { name: 'Taxi Scheveningen', href: '/locations/scheveningen' },
@@ -16,9 +16,9 @@ const footerLinks = {
     { name: 'Taxi Leidschendam', href: '/locations/leidschendam' },
   ],
   bedrijf: [
-    { name: 'Over Ons', href: '/over-ons' },
     { name: 'Reviews', href: '/#reviews' },
-    { name: 'Veelgestelde Vragen', href: '/faq' },
+    { name: 'Tarieven', href: '/#tarieven' },
+    { name: 'Locaties', href: '/#locaties' },
     { name: 'Contact', href: '/#contact' },
   ],
   legal: [

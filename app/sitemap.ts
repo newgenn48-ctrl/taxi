@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/locations` },
     { url: `${baseUrl}/voorwaarden` },
     { url: `${baseUrl}/privacy` },
+    { url: `${baseUrl}/cookies` },
   ]
 
   // Location pages
