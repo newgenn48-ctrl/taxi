@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
@@ -118,6 +117,7 @@ gtag('config', 'G-S7329D483N');`,
         <link rel="manifest" href="/manifest.webmanifest" />
         {/* Inline Webbooker */}
         <link rel="stylesheet" href="https://yourwebbooker.com/inline-webbooker/styles.css" />
+        <script async type="module" src="https://yourwebbooker.com/inline-webbooker/webbooker.js" />
         <meta name="theme-color" content="#f97316" media="(prefers-color-scheme: light)" />
         <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
         <meta name="msapplication-TileColor" content="#f97316" />
@@ -279,11 +279,6 @@ gtag('config', 'G-S7329D483N');`,
         >
           Ga naar hoofdinhoud
         </a>
-        <Script
-          src="https://yourwebbooker.com/inline-webbooker/webbooker.js"
-          type="module"
-          strategy="afterInteractive"
-        />
         <Header />
         <main id="main-content" className="flex-1 pb-16 md:pb-0">{children}</main>
         <Footer />
