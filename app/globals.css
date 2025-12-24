@@ -476,18 +476,31 @@ inline-webbooker em {
   color: #000000 !important;
 }
 
-/* Buttons - witte tekst */
+/* Buttons - witte tekst - maximale specificiteit */
 inline-webbooker button,
 inline-webbooker button *,
 inline-webbooker button span,
 inline-webbooker button div,
+inline-webbooker button p,
+inline-webbooker button a,
+inline-webbooker button label,
+inline-webbooker button strong,
+inline-webbooker button em,
+inline-webbooker button i,
 inline-webbooker [type="submit"],
 inline-webbooker [type="submit"] *,
 inline-webbooker [type="button"],
 inline-webbooker [type="button"] *,
 inline-webbooker [class*="btn"],
-inline-webbooker [class*="btn"] * {
+inline-webbooker [class*="btn"] *,
+inline-webbooker [class*="button"],
+inline-webbooker [class*="button"] *,
+inline-webbooker [class*="submit"],
+inline-webbooker [class*="submit"] *,
+inline-webbooker [role="button"],
+inline-webbooker [role="button"] * {
   color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
 }
 
 
