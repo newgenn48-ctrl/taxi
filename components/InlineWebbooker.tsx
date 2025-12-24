@@ -13,7 +13,7 @@ export default function InlineWebbooker() {
       backgroundcolor="#ffffff"
       buttonstyle="rounded"
       language="nl"
-      style={{ padding: '20px', display: 'block', width: '100%' }}
+      style={{ display: 'block', width: '100%' }}
     />
   )
 }
