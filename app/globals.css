@@ -439,4 +439,9 @@ video {
   @apply bg-primary-100 text-primary-900;
 }
 
+/* Webbooker button text wit */
+inline-webbooker button {
+  color: #ffffff !important;
+}
+
 
