@@ -440,124 +440,158 @@ video {
 }
 
 /* ============================================
-   Inline Webbooker Custom Styling
+   Inline Webbooker Custom Styling - Compact
    ============================================ */
 
-/* Container - compacter maken */
+/* Container - zeer compact */
 inline-webbooker {
   display: block;
-  padding: 12px !important;
+  padding: 8px !important;
+  font-size: 13px !important;
 }
 
 /* Alle interne elementen compacter */
 inline-webbooker .wb-form,
 inline-webbooker form {
-  gap: 8px !important;
+  gap: 4px !important;
 }
 
-/* Input velden compacter */
+/* Alle margins en paddings verkleinen */
+inline-webbooker * {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+inline-webbooker > * {
+  margin-bottom: 6px !important;
+}
+
+/* Input velden kleiner */
 inline-webbooker input,
 inline-webbooker select,
 inline-webbooker textarea {
-  padding: 10px 12px !important;
-  font-size: 14px !important;
-  border-radius: 8px !important;
+  padding: 8px 10px !important;
+  font-size: 13px !important;
+  border-radius: 6px !important;
   border: 1px solid #e2e8f0 !important;
   transition: border-color 0.2s, box-shadow 0.2s !important;
+  height: auto !important;
+  min-height: 36px !important;
 }
 
 inline-webbooker input:focus,
 inline-webbooker select:focus,
 inline-webbooker textarea:focus {
   border-color: #eab308 !important;
-  box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.1) !important;
+  box-shadow: 0 0 0 2px rgba(234, 179, 8, 0.1) !important;
   outline: none !important;
 }
 
-/* Labels compacter */
+/* Labels kleiner */
 inline-webbooker label {
-  font-size: 13px !important;
+  font-size: 11px !important;
   font-weight: 600 !important;
-  margin-bottom: 4px !important;
+  margin-bottom: 2px !important;
   color: #1e293b !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.3px !important;
 }
 
-/* Spacing tussen form groepen */
+/* Spacing tussen form groepen minimaal */
 inline-webbooker .form-group,
 inline-webbooker .wb-field,
 inline-webbooker [class*="field"] {
-  margin-bottom: 10px !important;
+  margin-bottom: 6px !important;
+  padding: 0 !important;
 }
 
-/* Primary buttons - geel thema */
+/* Rows en containers */
+inline-webbooker .row,
+inline-webbooker [class*="row"] {
+  gap: 6px !important;
+  margin: 0 !important;
+}
+
+/* Primary buttons - geel thema, kleiner */
 inline-webbooker button[type="submit"],
 inline-webbooker .btn-primary,
 inline-webbooker .wb-btn-primary,
 inline-webbooker [class*="submit"],
-inline-webbooker [class*="primary"] {
+inline-webbooker [class*="primary"]:not(input):not(select) {
   background: linear-gradient(135deg, #eab308 0%, #ca8a04 100%) !important;
   color: white !important;
   font-weight: 600 !important;
-  padding: 12px 24px !important;
-  border-radius: 10px !important;
+  padding: 10px 18px !important;
+  font-size: 13px !important;
+  border-radius: 8px !important;
   border: none !important;
   cursor: pointer !important;
   transition: all 0.3s !important;
-  box-shadow: 0 4px 12px rgba(234, 179, 8, 0.3) !important;
+  box-shadow: 0 2px 8px rgba(234, 179, 8, 0.3) !important;
 }
 
 inline-webbooker button[type="submit"]:hover,
 inline-webbooker .btn-primary:hover,
-inline-webbooker .wb-btn-primary:hover,
-inline-webbooker [class*="submit"]:hover,
-inline-webbooker [class*="primary"]:hover {
+inline-webbooker .wb-btn-primary:hover {
   transform: translateY(-1px) !important;
-  box-shadow: 0 6px 16px rgba(234, 179, 8, 0.4) !important;
+  box-shadow: 0 4px 12px rgba(234, 179, 8, 0.4) !important;
 }
 
-/* Secondary buttons */
+/* Secondary/andere buttons kleiner */
+inline-webbooker button:not([type="submit"]),
 inline-webbooker .btn-secondary,
 inline-webbooker .wb-btn-secondary {
   background: white !important;
   color: #1e293b !important;
   border: 1px solid #e2e8f0 !important;
-  padding: 10px 20px !important;
-  border-radius: 8px !important;
+  padding: 8px 14px !important;
+  font-size: 12px !important;
+  border-radius: 6px !important;
 }
 
-/* Headers en titels in het formulier */
+/* Headers en titels kleiner */
 inline-webbooker h1,
 inline-webbooker h2,
 inline-webbooker h3,
 inline-webbooker h4 {
-  font-size: 16px !important;
+  font-size: 14px !important;
   font-weight: 700 !important;
   color: #1e293b !important;
-  margin-bottom: 12px !important;
+  margin-bottom: 8px !important;
+  margin-top: 0 !important;
 }
 
-/* Navigatie stappen compacter */
+/* Navigatie stappen zeer compact */
 inline-webbooker .wb-nav,
 inline-webbooker .wb-steps,
 inline-webbooker [class*="navigation"],
 inline-webbooker [class*="steps"] {
-  padding: 8px !important;
-  gap: 4px !important;
+  padding: 4px !important;
+  gap: 2px !important;
+  font-size: 11px !important;
 }
 
 /* Prijs weergave */
 inline-webbooker .wb-price,
 inline-webbooker [class*="price"] {
-  font-size: 18px !important;
+  font-size: 16px !important;
   font-weight: 700 !important;
   color: #eab308 !important;
+}
+
+/* Tekst en paragrafen kleiner */
+inline-webbooker p,
+inline-webbooker span,
+inline-webbooker div {
+  font-size: 13px !important;
+  line-height: 1.4 !important;
 }
 
 /* Error messages */
 inline-webbooker .error,
 inline-webbooker [class*="error"] {
   color: #dc2626 !important;
-  font-size: 12px !important;
+  font-size: 11px !important;
 }
 
 /* Success messages */
@@ -566,21 +600,29 @@ inline-webbooker [class*="success"] {
   color: #16a34a !important;
 }
 
+/* Iconen kleiner */
+inline-webbooker svg,
+inline-webbooker [class*="icon"] {
+  width: 16px !important;
+  height: 16px !important;
+}
+
 /* Mobile optimalisatie */
 @media (max-width: 768px) {
   inline-webbooker {
-    padding: 10px !important;
+    padding: 6px !important;
   }
 
   inline-webbooker input,
   inline-webbooker select {
-    padding: 12px !important;
+    padding: 10px !important;
     font-size: 16px !important; /* Voorkomt zoom op iOS */
+    min-height: 42px !important;
   }
 
   inline-webbooker button[type="submit"] {
     width: 100% !important;
-    padding: 14px !important;
+    padding: 12px !important;
   }
 }
 
