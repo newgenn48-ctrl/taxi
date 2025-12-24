@@ -440,7 +440,17 @@ video {
 }
 
 /* Webbooker styling */
-inline-webbooker {
+inline-webbooker,
+inline-webbooker * {
+  color: #000000 !important;
+}
+
+inline-webbooker label,
+inline-webbooker span,
+inline-webbooker p,
+inline-webbooker div,
+inline-webbooker input,
+inline-webbooker select {
   color: #000000 !important;
 }
 
