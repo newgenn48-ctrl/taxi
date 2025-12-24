@@ -11,20 +11,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // PREMIUM ORANJE - Nederlands, Warm, Actie, Vertrouwen
-        // Geïnspireerd door succesvolle Nederlandse merken: ING, PostNL, Oranje Taxi
+        // PREMIUM GEEL - Nederlands, Warm, Actie, Vertrouwen
+        // Geïnspireerd door succesvolle Nederlandse merken: Taxi geel
         primary: {
-          50: '#fff7ed',   // Zeer licht oranje/cream
-          100: '#ffedd5',  // Licht oranje
-          200: '#fed7aa',  // Zacht oranje
-          300: '#fdba74',  // Medium licht oranje
-          400: '#fb923c',  // Levendig oranje
-          500: '#f97316',  // HOOFD ORANJE - Krachtig, Nederlands
-          600: '#ea580c',  // Donkerder oranje
-          700: '#c2410c',  // Diep oranje
-          800: '#9a3412',  // Zeer donker oranje
-          900: '#7c2d12',  // Bijna bruin-oranje
-          950: '#431407',  // Donkerste oranje
+          50: '#fefce8',   // Zeer licht geel
+          100: '#fef9c3',  // Licht geel
+          200: '#fef08a',  // Zacht geel
+          300: '#fde047',  // Medium licht geel
+          400: '#facc15',  // Levendig geel
+          500: '#eab308',  // HOOFD GEEL - Krachtig, Taxi
+          600: '#ca8a04',  // Donkerder geel
+          700: '#a16207',  // Diep geel
+          800: '#854d0e',  // Zeer donker geel
+          900: '#713f12',  // Bijna bruin-geel
+          950: '#422006',  // Donkerste geel
         },
         // NAVY/DONKERBLAUW - Luxe, Vertrouwen, Premium
         // Complementeert oranje perfect, geeft luxe uitstraling
@@ -69,15 +69,15 @@ module.exports = {
         'luxury': '0 4px 20px -2px rgba(0, 0, 0, 0.08), 0 2px 8px -2px rgba(0, 0, 0, 0.04)',
         'luxury-lg': '0 10px 40px -3px rgba(0, 0, 0, 0.12), 0 4px 16px -4px rgba(0, 0, 0, 0.08)',
         'luxury-xl': '0 20px 50px -5px rgba(0, 0, 0, 0.15), 0 8px 20px -6px rgba(0, 0, 0, 0.1)',
-        // Oranje glow effecten
-        'orange': '0 4px 20px -2px rgba(249, 115, 22, 0.25)',
-        'orange-lg': '0 10px 40px -3px rgba(249, 115, 22, 0.35)',
-        'orange-xl': '0 20px 50px -5px rgba(249, 115, 22, 0.4)',
+        // Geel glow effecten
+        'orange': '0 4px 20px -2px rgba(234, 179, 8, 0.25)',
+        'orange-lg': '0 10px 40px -3px rgba(234, 179, 8, 0.35)',
+        'orange-xl': '0 20px 50px -5px rgba(234, 179, 8, 0.4)',
       },
       backgroundImage: {
         // Premium gradients
-        'gradient-orange': 'linear-gradient(135deg, #f97316 0%, #ea580c 100%)',
-        'gradient-orange-warm': 'linear-gradient(135deg, #fb923c 0%, #f97316 50%, #ea580c 100%)',
+        'gradient-orange': 'linear-gradient(135deg, #eab308 0%, #ca8a04 100%)',
+        'gradient-orange-warm': 'linear-gradient(135deg, #facc15 0%, #eab308 50%, #ca8a04 100%)',
         'gradient-luxury': 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)',
         'gradient-dark': 'linear-gradient(135deg, #0c1222 0%, #0f172a 100%)',
         'gradient-light': 'linear-gradient(180deg, #fffbf5 0%, #ffffff 100%)',
