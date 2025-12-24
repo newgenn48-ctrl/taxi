@@ -9,7 +9,7 @@ export default function InlineWebbooker() {
       showtopbar="false"
       showlogo="false"
       headercolor="#eab308"
-      textcolor="#1e293b"
+      textcolor="#000000"
       backgroundcolor="#ffffff"
       buttonstyle="rounded"
       language="nl"

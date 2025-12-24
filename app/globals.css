@@ -439,22 +439,40 @@ video {
   @apply bg-primary-100 text-primary-900;
 }
 
-/* Webbooker styling */
+/* Webbooker styling - alle tekst zwart */
 inline-webbooker,
-inline-webbooker * {
+inline-webbooker *,
+inline-webbooker *::before,
+inline-webbooker *::after {
   color: #000000 !important;
 }
 
+inline-webbooker a,
+inline-webbooker h1,
+inline-webbooker h2,
+inline-webbooker h3,
+inline-webbooker h4,
+inline-webbooker h5,
+inline-webbooker h6,
 inline-webbooker label,
 inline-webbooker span,
 inline-webbooker p,
 inline-webbooker div,
 inline-webbooker input,
-inline-webbooker select {
+inline-webbooker select,
+inline-webbooker option,
+inline-webbooker textarea,
+inline-webbooker small,
+inline-webbooker strong,
+inline-webbooker em {
   color: #000000 !important;
 }
 
-inline-webbooker button {
+/* Buttons wit */
+inline-webbooker button,
+inline-webbooker button *,
+inline-webbooker [type="submit"],
+inline-webbooker [type="button"] {
   color: #ffffff !important;
 }
 
