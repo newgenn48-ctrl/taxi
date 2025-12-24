@@ -440,189 +440,359 @@ video {
 }
 
 /* ============================================
-   Inline Webbooker Custom Styling - Compact
+   Inline Webbooker - Professional Square Design
+   Modern, clean, user-friendly booking form
    ============================================ */
 
-/* Container - zeer compact */
+/* Main container - clean white with subtle shadow */
 inline-webbooker {
-  display: block;
-  padding: 8px !important;
-  font-size: 13px !important;
+  display: block !important;
+  padding: 20px !important;
+  font-family: 'Inter', system-ui, sans-serif !important;
+  font-size: 14px !important;
+  color: #1e293b !important;
+  background: #ffffff !important;
 }
 
-/* Alle interne elementen compacter */
-inline-webbooker .wb-form,
-inline-webbooker form {
-  gap: 4px !important;
-}
-
-/* Alle margins en paddings verkleinen */
+/* Reset all margins for consistent spacing */
 inline-webbooker * {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  box-sizing: border-box !important;
 }
 
-inline-webbooker > * {
-  margin-bottom: 6px !important;
+/* Form container */
+inline-webbooker form,
+inline-webbooker .wb-form {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
 }
 
-/* Input velden kleiner */
+/* ===== INPUT FIELDS - Square, modern design ===== */
 inline-webbooker input,
 inline-webbooker select,
 inline-webbooker textarea {
-  padding: 8px 10px !important;
-  font-size: 13px !important;
-  border-radius: 6px !important;
-  border: 1px solid #e2e8f0 !important;
-  transition: border-color 0.2s, box-shadow 0.2s !important;
-  height: auto !important;
-  min-height: 36px !important;
+  width: 100% !important;
+  padding: 14px 16px !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #1e293b !important;
+  background: #f8fafc !important;
+  border: 2px solid #e2e8f0 !important;
+  border-radius: 4px !important;  /* Square corners */
+  transition: all 0.2s ease !important;
+  outline: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
 }
 
+inline-webbooker input::placeholder,
+inline-webbooker textarea::placeholder {
+  color: #94a3b8 !important;
+  font-weight: 400 !important;
+}
+
+/* Focus state - yellow accent */
 inline-webbooker input:focus,
 inline-webbooker select:focus,
 inline-webbooker textarea:focus {
+  background: #ffffff !important;
   border-color: #eab308 !important;
-  box-shadow: 0 0 0 2px rgba(234, 179, 8, 0.1) !important;
-  outline: none !important;
+  box-shadow: 0 0 0 4px rgba(234, 179, 8, 0.12) !important;
 }
 
-/* Labels kleiner */
+/* Hover state */
+inline-webbooker input:hover:not(:focus),
+inline-webbooker select:hover:not(:focus) {
+  border-color: #cbd5e1 !important;
+  background: #ffffff !important;
+}
+
+/* Select dropdown arrow */
+inline-webbooker select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 12px center !important;
+  background-size: 18px !important;
+  padding-right: 44px !important;
+  cursor: pointer !important;
+}
+
+/* ===== LABELS - Clean, professional ===== */
 inline-webbooker label {
-  font-size: 11px !important;
+  display: block !important;
+  font-size: 13px !important;
   font-weight: 600 !important;
-  margin-bottom: 2px !important;
-  color: #1e293b !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.3px !important;
+  color: #475569 !important;
+  margin-bottom: 6px !important;
+  letter-spacing: 0.01em !important;
 }
 
-/* Spacing tussen form groepen minimaal */
+/* ===== FORM GROUPS - Structured layout ===== */
 inline-webbooker .form-group,
 inline-webbooker .wb-field,
 inline-webbooker [class*="field"] {
-  margin-bottom: 6px !important;
-  padding: 0 !important;
+  margin-bottom: 4px !important;
 }
 
-/* Rows en containers */
+/* Row layout for side-by-side fields */
 inline-webbooker .row,
 inline-webbooker [class*="row"] {
-  gap: 6px !important;
+  display: flex !important;
+  gap: 12px !important;
   margin: 0 !important;
 }
 
-/* Primary buttons - geel thema, kleiner */
+inline-webbooker .row > *,
+inline-webbooker [class*="row"] > * {
+  flex: 1 !important;
+}
+
+/* ===== PRIMARY BUTTON - Bold yellow CTA ===== */
 inline-webbooker button[type="submit"],
 inline-webbooker .btn-primary,
 inline-webbooker .wb-btn-primary,
-inline-webbooker [class*="submit"],
-inline-webbooker [class*="primary"]:not(input):not(select) {
-  background: linear-gradient(135deg, #eab308 0%, #ca8a04 100%) !important;
-  color: white !important;
-  font-weight: 600 !important;
-  padding: 10px 18px !important;
-  font-size: 13px !important;
-  border-radius: 8px !important;
+inline-webbooker [class*="submit"]:not(input) {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  width: 100% !important;
+  padding: 16px 24px !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #eab308 0%, #ca8a04 100%) !important;
   border: none !important;
+  border-radius: 4px !important;
   cursor: pointer !important;
-  transition: all 0.3s !important;
-  box-shadow: 0 2px 8px rgba(234, 179, 8, 0.3) !important;
+  transition: all 0.2s ease !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 4px 12px rgba(234, 179, 8, 0.3) !important;
 }
 
 inline-webbooker button[type="submit"]:hover,
 inline-webbooker .btn-primary:hover,
 inline-webbooker .wb-btn-primary:hover {
+  background: linear-gradient(180deg, #fbbf24 0%, #eab308 100%) !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 8px 24px rgba(234, 179, 8, 0.4) !important;
   transform: translateY(-1px) !important;
-  box-shadow: 0 4px 12px rgba(234, 179, 8, 0.4) !important;
 }
 
-/* Secondary/andere buttons kleiner */
+inline-webbooker button[type="submit"]:active,
+inline-webbooker .btn-primary:active {
+  transform: translateY(0) !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1), 0 2px 8px rgba(234, 179, 8, 0.3) !important;
+}
+
+/* ===== SECONDARY BUTTONS ===== */
 inline-webbooker button:not([type="submit"]),
 inline-webbooker .btn-secondary,
 inline-webbooker .wb-btn-secondary {
-  background: white !important;
-  color: #1e293b !important;
-  border: 1px solid #e2e8f0 !important;
-  padding: 8px 14px !important;
-  font-size: 12px !important;
-  border-radius: 6px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 12px 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #475569 !important;
+  background: #ffffff !important;
+  border: 2px solid #e2e8f0 !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
 }
 
-/* Headers en titels kleiner */
+inline-webbooker button:not([type="submit"]):hover {
+  border-color: #eab308 !important;
+  color: #ca8a04 !important;
+  background: #fefce8 !important;
+}
+
+/* ===== HEADINGS & TITLES ===== */
 inline-webbooker h1,
 inline-webbooker h2,
 inline-webbooker h3,
 inline-webbooker h4 {
-  font-size: 14px !important;
+  font-size: 18px !important;
   font-weight: 700 !important;
-  color: #1e293b !important;
-  margin-bottom: 8px !important;
-  margin-top: 0 !important;
+  color: #0f172a !important;
+  margin: 0 0 16px 0 !important;
+  padding-bottom: 12px !important;
+  border-bottom: 2px solid #f1f5f9 !important;
 }
 
-/* Navigatie stappen zeer compact */
+/* ===== NAVIGATION/STEPS INDICATOR ===== */
 inline-webbooker .wb-nav,
 inline-webbooker .wb-steps,
 inline-webbooker [class*="navigation"],
 inline-webbooker [class*="steps"] {
-  padding: 4px !important;
-  gap: 2px !important;
-  font-size: 11px !important;
+  display: flex !important;
+  gap: 8px !important;
+  padding: 12px 0 !important;
+  margin-bottom: 16px !important;
+  border-bottom: 1px solid #f1f5f9 !important;
 }
 
-/* Prijs weergave */
+inline-webbooker [class*="step"] {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 8px 12px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #94a3b8 !important;
+  background: #f8fafc !important;
+  border-radius: 4px !important;
+}
+
+inline-webbooker [class*="step"].active,
+inline-webbooker [class*="step"][class*="current"] {
+  color: #ca8a04 !important;
+  background: #fef9c3 !important;
+}
+
+/* ===== PRICE DISPLAY ===== */
 inline-webbooker .wb-price,
 inline-webbooker [class*="price"] {
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+}
+
+inline-webbooker [class*="price"]::before {
+  content: "€" !important;
   font-size: 16px !important;
-  font-weight: 700 !important;
-  color: #eab308 !important;
+  font-weight: 600 !important;
+  vertical-align: super !important;
+  margin-right: 2px !important;
 }
 
-/* Tekst en paragrafen kleiner */
-inline-webbooker p,
-inline-webbooker span,
-inline-webbooker div {
-  font-size: 13px !important;
-  line-height: 1.4 !important;
+/* ===== INFO TEXT & PARAGRAPHS ===== */
+inline-webbooker p {
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+  color: #64748b !important;
+  margin: 0 0 12px 0 !important;
 }
 
-/* Error messages */
+inline-webbooker span {
+  font-size: inherit !important;
+}
+
+/* ===== ERROR STATES ===== */
 inline-webbooker .error,
-inline-webbooker [class*="error"] {
-  color: #dc2626 !important;
-  font-size: 11px !important;
+inline-webbooker [class*="error"],
+inline-webbooker input:invalid {
+  border-color: #ef4444 !important;
 }
 
-/* Success messages */
+inline-webbooker .error-message,
+inline-webbooker [class*="error-message"] {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin-top: 6px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #dc2626 !important;
+}
+
+/* ===== SUCCESS STATES ===== */
 inline-webbooker .success,
 inline-webbooker [class*="success"] {
   color: #16a34a !important;
 }
 
-/* Iconen kleiner */
-inline-webbooker svg,
-inline-webbooker [class*="icon"] {
-  width: 16px !important;
-  height: 16px !important;
+/* ===== CHECKBOXES & RADIO BUTTONS ===== */
+inline-webbooker input[type="checkbox"],
+inline-webbooker input[type="radio"] {
+  width: 20px !important;
+  height: 20px !important;
+  min-height: auto !important;
+  padding: 0 !important;
+  margin-right: 10px !important;
+  border: 2px solid #cbd5e1 !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  accent-color: #eab308 !important;
 }
 
-/* Mobile optimalisatie */
+inline-webbooker input[type="radio"] {
+  border-radius: 50% !important;
+}
+
+inline-webbooker input[type="checkbox"]:checked,
+inline-webbooker input[type="radio"]:checked {
+  background: #eab308 !important;
+  border-color: #eab308 !important;
+}
+
+/* ===== DIVIDERS & SECTIONS ===== */
+inline-webbooker hr,
+inline-webbooker [class*="divider"] {
+  border: none !important;
+  height: 1px !important;
+  background: #e2e8f0 !important;
+  margin: 20px 0 !important;
+}
+
+/* ===== ICONS ===== */
+inline-webbooker svg {
+  flex-shrink: 0 !important;
+}
+
+/* ===== LOADING STATES ===== */
+inline-webbooker [class*="loading"],
+inline-webbooker [class*="spinner"] {
+  opacity: 0.7 !important;
+  pointer-events: none !important;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
 @media (max-width: 768px) {
   inline-webbooker {
-    padding: 6px !important;
+    padding: 16px !important;
   }
 
   inline-webbooker input,
-  inline-webbooker select {
-    padding: 10px !important;
-    font-size: 16px !important; /* Voorkomt zoom op iOS */
-    min-height: 42px !important;
+  inline-webbooker select,
+  inline-webbooker textarea {
+    padding: 16px !important;
+    font-size: 16px !important; /* Prevents iOS zoom */
+  }
+
+  inline-webbooker .row,
+  inline-webbooker [class*="row"] {
+    flex-direction: column !important;
+    gap: 0 !important;
   }
 
   inline-webbooker button[type="submit"] {
-    width: 100% !important;
-    padding: 12px !important;
+    padding: 18px 24px !important;
+    font-size: 16px !important;
   }
+
+  inline-webbooker h1,
+  inline-webbooker h2,
+  inline-webbooker h3 {
+    font-size: 16px !important;
+  }
+}
+
+/* ===== DARK MODE SUPPORT (optional) ===== */
+@media (prefers-color-scheme: dark) {
+  /* Uncomment to enable dark mode support
+  inline-webbooker {
+    background: #1e293b !important;
+    color: #f1f5f9 !important;
+  }
+  inline-webbooker input,
+  inline-webbooker select {
+    background: #334155 !important;
+    border-color: #475569 !important;
+    color: #f1f5f9 !important;
+  }
+  */
 }
 
