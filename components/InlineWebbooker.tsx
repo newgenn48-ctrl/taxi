@@ -2,6 +2,7 @@
 
 export default function InlineWebbooker() {
   return (
+    // @ts-expect-error - inline-webbooker is a custom web component
     <inline-webbooker
       formid="650acd888fe8f64502bcb2c9"
       navigation="inline"
