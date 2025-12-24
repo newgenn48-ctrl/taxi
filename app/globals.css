@@ -441,23 +441,31 @@ video {
 
 /* Webbooker styling - alle tekst zwart */
 inline-webbooker,
-inline-webbooker *,
-inline-webbooker *::before,
-inline-webbooker *::after {
+inline-webbooker *:not(button):not([type="submit"]):not([type="button"]) {
   color: #000000 !important;
+  --header-color: #000000 !important;
+  --text-color: #000000 !important;
 }
 
-inline-webbooker a,
+/* Titels en headers specifiek zwart */
 inline-webbooker h1,
 inline-webbooker h2,
 inline-webbooker h3,
 inline-webbooker h4,
 inline-webbooker h5,
 inline-webbooker h6,
+inline-webbooker [class*="title"],
+inline-webbooker [class*="header"],
+inline-webbooker [class*="heading"] {
+  color: #000000 !important;
+}
+
+/* Alle andere tekst elementen */
+inline-webbooker a:not(button a),
 inline-webbooker label,
-inline-webbooker span,
+inline-webbooker span:not(button span),
 inline-webbooker p,
-inline-webbooker div,
+inline-webbooker div:not(button div),
 inline-webbooker input,
 inline-webbooker select,
 inline-webbooker option,
@@ -468,11 +476,17 @@ inline-webbooker em {
   color: #000000 !important;
 }
 
-/* Buttons wit */
+/* Buttons - witte tekst */
 inline-webbooker button,
 inline-webbooker button *,
+inline-webbooker button span,
+inline-webbooker button div,
 inline-webbooker [type="submit"],
-inline-webbooker [type="button"] {
+inline-webbooker [type="submit"] *,
+inline-webbooker [type="button"],
+inline-webbooker [type="button"] *,
+inline-webbooker [class*="btn"],
+inline-webbooker [class*="btn"] * {
   color: #ffffff !important;
 }
 
